@@ -3,10 +3,14 @@
   <entry>
     <title>2020-03-12-hexo</title>
     <url>/2020/03/13/2020-03-12-hexo/</url>
-    <content><![CDATA[<h1>GitHub Pages+ Hexo搭建自己的个人博客（Hexo……把我搞瘫了）</h1>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>GitHub Pages+ Hexo搭建自己的个人博客（Hexo……把我搞瘫了）</h1>
 <p>两天的学习，查了众多大佬的好文，整理出来，算对自己学习的一个总结。win10亲测。</p>
 <a id="more"></a>
 <p><strong>注意：文中代码区皆在Git Bash中输入</strong></p>
+
+    <div id="aplayer-mOnRfwdX" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="2533852173" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
+    ></div>
 <h3 id="1-网页端"><a class="header-anchor" href="#1-网页端">¶</a>1 网页端</h3>
 <h4 id="1-1-注册GitHub账号"><a class="header-anchor" href="#1-1-注册GitHub账号">¶</a>1.1 注册GitHub账号</h4>
 <h4 id="1-2-创建Your-username-github-io的Public仓库"><a class="header-anchor" href="#1-2-创建Your-username-github-io的Public仓库">¶</a>1.2 创建Your_username.github.io的Public仓库</h4>
