@@ -49,8 +49,8 @@
 <h4 id="2-7-后续上传"><a class="header-anchor" href="#2-7-后续上传">¶</a>2.7 后续上传</h4>
 <p>从第二次上传开始就无须安装插件了，只需三行。</p>
  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<h3 id="3-PS"><a class="header-anchor" href="#3-PS">¶</a>3 PS</h3>
-<h4 id="3-1-p1-Hexo技巧"><a class="header-anchor" href="#3-1-p1-Hexo技巧">¶</a>3.1 p1:<a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo技巧</a></h4>
+<h3 id="3-还有一点点"><a class="header-anchor" href="#3-还有一点点">¶</a>3 还有一点点</h3>
+<h4 id="3-1-Hexo技巧"><a class="header-anchor" href="#3-1-Hexo技巧">¶</a>3.1 <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo技巧</a></h4>
 <ul>
 <li>
 <p><a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="noopener">添加图片</a></p>
@@ -61,11 +61,11 @@
 <p>采用hexo-renderer-markdown-it插件代替hexo-renderer-markdown</p>
 </li>
 </ul>
-<h4 id="3-2-P2-更换博客模板—推荐Next模板"><a class="header-anchor" href="#3-2-P2-更换博客模板—推荐Next模板">¶</a>3.2 P2:更换博客模板—推荐<a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">Next</a>模板</h4>
+<h4 id="3-2-更换博客模板—推荐Next模板"><a class="header-anchor" href="#3-2-更换博客模板—推荐Next模板">¶</a>3.2 更换博客模板—推荐<a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">Next</a>模板</h4>
 <ul>
 <li><a href="https://theme-next.org/docs/getting-started/" target="_blank" rel="noopener">Next官方主题配置</a> 、<a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#top" target="_blank" rel="noopener">Next民间个性化</a></li>
 </ul>
-<h4 id="3-3-P3-跨电脑修改博客"><a class="header-anchor" href="#3-3-P3-跨电脑修改博客">¶</a>3.3 P3:跨电脑修改博客</h4>
+<h4 id="3-3-跨电脑修改博客"><a class="header-anchor" href="#3-3-跨电脑修改博客">¶</a>3.3 跨电脑修改博客</h4>
 <p>需要用Git把线上包下载到本地，链接最好采用SSH链接，使用如下命令：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone git@github.com:Your-username&#x2F;Your-username.github.io.git</span><br></pre></td></tr></table></figure>
 <p>之后在本地修改，再上传即可</p>
