@@ -9,20 +9,17 @@
 <h2 id="1-音乐"><a class="header-anchor" href="#1-音乐">¶</a>1 音乐</h2>
 <h3 id="1-1-blog内音乐"><a class="header-anchor" href="#1-1-blog内音乐">¶</a>1.1 blog内音乐</h3>
 
-    <div id="aplayer-glvAPjyA" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-gtTNFheJ" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="2533852173" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>  
 <h4 id="1-1-1-安装hexo-tag-aplayer插件"><a class="header-anchor" href="#1-1-1-安装hexo-tag-aplayer插件">¶</a>1.1.1 安装<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">hexo-tag-aplayer插件</a></h4>
 <p><code>npm install --save hexo-tag-aplayer</code></p>
-<h4 id="1-1-2-在站点配置文件-config-yml中加入"><a class="header-anchor" href="#1-1-2-在站点配置文件-config-yml中加入">¶</a>1.1.2 在站点配置文件_config.yml中加入</h4>
+<h4 id="1-1-2-在站点配置文件-config-yml中敲入"><a class="header-anchor" href="#1-1-2-在站点配置文件-config-yml中敲入">¶</a>1.1.2 在站点配置文件_config.yml中敲入</h4>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">aplayer:</span><br><span class="line">  meting: true</span><br></pre></td></tr></table></figure>
-<h4 id="1-1-3-blog中插入-￼6-就可使用-MetingJS-播放器了："><a class="header-anchor" href="#1-1-3-blog中插入-￼6-就可使用-MetingJS-播放器了：">¶</a>1.1.3 blog中插入 <code>
-    <div id="aplayer-UDaSkzNo" class="aplayer aplayer-tag-marker meting-tag-marker"
-         data-id="id," data-server="server," data-type="type" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
-    ></div></code> 就可使用 MetingJS 播放器了：</h4>
+<h4 id="1-1-3-blog中敲入代码-￼5-就可使用-MetingJS-播放器了"><a class="header-anchor" href="#1-1-3-blog中敲入代码-￼5-就可使用-MetingJS-播放器了">¶</a>1.1.3 blog中敲入代码<code>{% meting id, server, type%}</code>就可使用 MetingJS 播放器了</h4>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 本blog音乐源代码 --&gt;</span><br><span class="line">&#123;% meting &quot;2533852173&quot; &quot;netease&quot; &quot;playlist&quot; %&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>格式解释:</p>
+<p><code>{% meting id, server, type%}</code>格式解释:</p>
 <ul>
 <li>id就是歌曲或播放列表的id，打开音乐的网页地址栏的数字就是id</li>
 <li>serve就是在<code>netease, tencent, kugou, xiami, baidu</code>中选你的平台</li>
@@ -46,13 +43,15 @@
 <p>b站嵌入代码获取方式如下图：</p>
 <img src="/2020-03-14-Hexo+Next%E4%B9%8BBlog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87/viedo.png" class="">
 <h2 id="3-图片"><a class="header-anchor" href="#3-图片">¶</a>3 图片</h2>
-<p>借鉴<a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="noopener">Hexo官方插图教程</a>搞定！推荐设置站点配置文件_config.yml中<br>
-post_asset_folder: true，再使用 <code></code></p>
+<p>借鉴<a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="noopener">Hexo官方插图教程</a>搞定！</p>
+<p>设置站点配置文件_config.yml中post_asset_folder: true，之后在Blog中敲入代码<code>{% asset_img 文件名.jpg 显示的小标题 %}</code>就ok了。</p>
 <p>附：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--上节b站图片的源代码--&gt;</span><br><span class="line">&#123;% asset_img viedo.png %&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>不推荐<code>![](/images/image.jpg)</code>的方法，说实话，我的显示不了。</p>
 </blockquote>
+<h2 id="4-推这篇Blog时遇到的问题："><a class="header-anchor" href="#4-推这篇Blog时遇到的问题：">¶</a>4 推这篇Blog时遇到的问题：</h2>
+<p><a href="https://hexo.io/zh-cn/docs/troubleshooting.html" target="_blank" rel="noopener">Hexo代码块中含有{}无法显示的解决办法</a> <strong>泄露（Escape）内容</strong> 部分</p>
 ]]></content>
       <tags>
         <tag>技术</tag>
@@ -111,7 +110,7 @@ post_asset_folder: true，再使用 <code></code></p>
 <ul>
 <li>
 <p><a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="noopener">添加图片</a></p>
-<p>使用自带的相对路径引用标签插件<code></code></p>
+<p>使用自带的相对路径引用标签插件<code>{% asset_img example.jpg This is an example image %}</code></p>
 </li>
 <li>
 <p><a href="https://kinboyw.github.io/2018/10/29/Hexo-NexT-%E5%BC%80%E5%90%AF-emoji/" target="_blank" rel="noopener">添加支持emoji</a></p>
