@@ -3,22 +3,21 @@
   <entry>
     <title>Hexo+Next之Blog中插入音乐、视频、图片</title>
     <url>/2020-03-14-Hexo+Next%E4%B9%8BBlog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>Hexo+Next之Blog中插入音乐、视频、图片</h1>
-<p>本着“有官方教程绝不可劲bb”的原则，以下问题官文很好懂的会直接甩链接，接好。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>本着“有官方教程绝不可劲bb”的原则，以下问题官文很好懂的会直接甩链接，接好。</p>
 <a id="more"></a>
 <p>本文使用的环境是Hexo4.2和Next7.7.2</p>
 <h2 id="1-音乐"><a class="header-anchor" href="#1-音乐">¶</a>1 音乐</h2>
 <h3 id="1-1-blog内音乐"><a class="header-anchor" href="#1-1-blog内音乐">¶</a>1.1 blog内音乐</h3>
 
-    <div id="aplayer-qTysPWdH" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-glvAPjyA" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="2533852173" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>  
 <h4 id="1-1-1-安装hexo-tag-aplayer插件"><a class="header-anchor" href="#1-1-1-安装hexo-tag-aplayer插件">¶</a>1.1.1 安装<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">hexo-tag-aplayer插件</a></h4>
 <p><code>npm install --save hexo-tag-aplayer</code></p>
 <h4 id="1-1-2-在站点配置文件-config-yml中加入"><a class="header-anchor" href="#1-1-2-在站点配置文件-config-yml中加入">¶</a>1.1.2 在站点配置文件_config.yml中加入</h4>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">aplayer:</span><br><span class="line">  meting: true</span><br></pre></td></tr></table></figure>
-<h4 id="1-1-3-blog中插入-￼6-就可使用-MetingJS-播放器了："><a class="header-anchor" href="#1-1-3-blog中插入-￼6-就可使用-MetingJS-播放器了：">¶</a>1.1.3 blog中插入<code>
-    <div id="aplayer-OuUclDMw" class="aplayer aplayer-tag-marker meting-tag-marker"
+<h4 id="1-1-3-blog中插入-￼6-就可使用-MetingJS-播放器了："><a class="header-anchor" href="#1-1-3-blog中插入-￼6-就可使用-MetingJS-播放器了：">¶</a>1.1.3 blog中插入 <code>
+    <div id="aplayer-UDaSkzNo" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="id," data-server="server," data-type="type" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div></code> 就可使用 MetingJS 播放器了：</h4>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 本blog音乐源代码 --&gt;</span><br><span class="line">&#123;% meting &quot;2533852173&quot; &quot;netease&quot; &quot;playlist&quot; %&#125;</span><br></pre></td></tr></table></figure>
@@ -43,14 +42,12 @@
 <h2 id="2-视频"><a class="header-anchor" href="#2-视频">¶</a>2 视频</h2>
 <p>和侧边栏音乐一样，使用外链。</p>
 <iframe src="//player.bilibili.com/player.html?aid=5256249&cid=8541950&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-<blockquote>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&lt;!--本视频链接的源代码--&gt;</span><br><span class="line">&gt;&lt;iframe src&#x3D;&quot;&#x2F;&#x2F;player.bilibili.com&#x2F;player.html?aid&#x3D;5256249&amp;cid&#x3D;8541950&amp;page&#x3D;1&quot; scrolling&#x3D;&quot;no&quot; border&#x3D;&quot;0&quot; frameborder&#x3D;&quot;no&quot; framespacing&#x3D;&quot;0&quot; allowfullscreen&#x3D;&quot;true&quot;&gt; &lt;&#x2F;iframe&gt;</span><br></pre></td></tr></table></figure>
-</blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--本视频链接的源代码--&gt;</span><br><span class="line">&lt;iframe src&#x3D;&quot;&#x2F;&#x2F;player.bilibili.com&#x2F;player.html?aid&#x3D;5256249&amp;cid&#x3D;8541950&amp;page&#x3D;1&quot; scrolling&#x3D;&quot;no&quot; border&#x3D;&quot;0&quot; frameborder&#x3D;&quot;no&quot; framespacing&#x3D;&quot;0&quot; allowfullscreen&#x3D;&quot;true&quot;&gt; &lt;&#x2F;iframe&gt;</span><br></pre></td></tr></table></figure>
 <p>b站嵌入代码获取方式如下图：</p>
 <img src="/2020-03-14-Hexo+Next%E4%B9%8BBlog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87/viedo.png" class="">
 <h2 id="3-图片"><a class="header-anchor" href="#3-图片">¶</a>3 图片</h2>
 <p>借鉴<a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="noopener">Hexo官方插图教程</a>搞定！推荐设置站点配置文件_config.yml中<br>
-post_asset_folder: true，再使用<code></code></p>
+post_asset_folder: true，再使用 <code></code></p>
 <p>附：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--上节b站图片的源代码--&gt;</span><br><span class="line">&#123;% asset_img viedo.png %&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
@@ -64,8 +61,7 @@ post_asset_folder: true，再使用<code></code></p>
   <entry>
     <title>GitHub Pages+ Hexo搭建自己的个人博客</title>
     <url>/2020-03-12-GitHub%20Pages+%20Hexo%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>GitHub Pages+ Hexo搭建自己的个人博客（Hexo……把我搞瘫了）</h1>
-<p>两天的学习，查了众多大佬的好文，整理出来，算对自己学习的一个总结。win10亲测。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>两天的学习，查了众多大佬的好文，整理出来，算对自己学习的一个总结。win10亲测。</p>
 <a id="more"></a>
 <p><strong>注意：文中代码区皆在Git Bash中输入</strong></p>
 <h3 id="1-网页端"><a class="header-anchor" href="#1-网页端">¶</a>1 网页端</h3>
