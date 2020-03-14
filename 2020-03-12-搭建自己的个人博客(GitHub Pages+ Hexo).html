@@ -30,7 +30,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://yoursite.com/2020-03-12-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(GitHub%20Pages+%20Hexo)/settingsss.png">
 <meta property="article:published_time" content="2020-03-12T15:55:55.000Z">
-<meta property="article:modified_time" content="2020-03-14T14:31:19.471Z">
+<meta property="article:modified_time" content="2020-03-14T15:05:33.370Z">
 <meta property="article:author" content="PencilHeart">
 <meta property="article:tag" content="技术">
 <meta name="twitter:card" content="summary">
@@ -209,7 +209,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-14 22:31:19" itemprop="dateModified" datetime="2020-03-14T22:31:19+08:00">2020-03-14</time>
+                <time title="修改时间：2020-03-14 23:05:33" itemprop="dateModified" datetime="2020-03-14T23:05:33+08:00">2020-03-14</time>
               </span>
 
           
@@ -257,38 +257,38 @@
 <li><a href="https://nodejs.org/ko/blog/release/v9.11.1/" target="_blank" rel="noopener">安装Node.js</a>，一路下一步。</li>
 </ul>
 <h4 id="2-2-本地安装Hexo"><a class="header-anchor" href="#2-2-本地安装Hexo">¶</a>2.2 本地安装Hexo</h4>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">cd d:&#x2F;blog			# 或者右键文件夹根目录Git Bash </span><br><span class="line">npm i hexo-cli -g		# 安装Hexo</span><br><span class="line">Hexo -v				# 检查Hexo，显示版本号继续</span><br><span class="line">hexo init			# 初始化Hexo博客</span><br><span class="line">npm install			# 安装组件</span><br><span class="line">hexo g				# 生成静态网页</span><br><span class="line">hexo s				# 打开服务器，可以在http:&#x2F;&#x2F;localhost:4000&#x2F; 查看</span><br><span class="line">ctrl+c				# 关闭本地服务器</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">cd d:/blog			# 或者右键文件夹根目录Git Bash </span><br><span class="line">npm i hexo-cli -g		# 安装Hexo</span><br><span class="line">Hexo -v				# 检查Hexo，显示版本号继续</span><br><span class="line">hexo init			# 初始化Hexo博客</span><br><span class="line">npm install			# 安装组件</span><br><span class="line">hexo g				# 生成静态网页</span><br><span class="line">hexo s				# 打开服务器，可以在http:<span class="comment">//localhost:4000/ 查看</span></span><br><span class="line">ctrl+c				# 关闭本地服务器</span><br></pre></td></tr></table></figure>
 <p>实现本地查看博客，jer动不？</p>
 <h4 id="2-3-本地绑定GitHub"><a class="header-anchor" href="#2-3-本地绑定GitHub">¶</a>2.3 本地绑定GitHub</h4>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;Your_username&quot;</span><br><span class="line">git config --global user.email &quot;Your_email@qq.com&quot;   </span><br><span class="line">ssh-keygen -t rsa -C &quot;Your_email@qq.com&quot;		# 安装本地SSH</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">config</span> --global user.name <span class="string">"Your_username"</span></span><br><span class="line">git <span class="built_in">config</span> --global user.email <span class="string">"Your_email@qq.com"</span>   </span><br><span class="line">ssh-keygen -t rsa -C <span class="string">"Your_email@qq.com"</span>		# 安装本地SSH</span><br></pre></td></tr></table></figure>
 <p>Enter三连。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat ~&#x2F;.ssh&#x2F;id_rsa.pub		# 生成SSH密码</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub		# 生成SSH密码</span><br></pre></td></tr></table></figure>
 <p>打开github网站，登录后点击头像-settings，左侧SSH and GPG keys，新建一个SSH，名字随便，填入上步的得到的SSH密码。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
 <p>检测到用户名即为成功绑定。</p>
 <h4 id="2-4-修改本地包上传目的地为GitHub"><a class="header-anchor" href="#2-4-修改本地包上传目的地为GitHub">¶</a>2.4 修改本地包上传目的地为GitHub</h4>
 <p>修改本地根目录文件_config.yml<br>
 修改最后一行的配置为：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:&#x2F;&#x2F;github.com&#x2F;Your_username&#x2F;Your_username.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:<span class="comment">//github.com/Your_username/Your_username.github.io.git</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>新版github博客只可显示master分支</p>
 <img src="/2020-03-12-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(GitHub%20Pages+%20Hexo)/settingsss.png" class="">
 </blockquote>
 <h4 id="2-5-第一次上传"><a class="header-anchor" href="#2-5-第一次上传">¶</a>2.5 第一次上传</h4>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save	#上传插件，自动装入package.json文件中</span><br><span class="line">hexo clean				#清缓存</span><br><span class="line">hexo g					#生成静态网页</span><br><span class="line">hexo d					#上传到GitHub</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save	#上传插件，自动装入package.json文件中</span><br><span class="line">hexo clean				#清缓存</span><br><span class="line">hexo g					#生成静态网页</span><br><span class="line">hexo d					#上传到GitHub</span><br></pre></td></tr></table></figure>
 <p><strong>💥上传完毕后，浏览器访问https://github.com/Your_username/Your_username.github.io 即可查看你的博客了。</strong></p>
 <h4 id="2-6-写博文"><a class="header-anchor" href="#2-6-写博文">¶</a>2.6 写博文</h4>
 <p>以下两种方法都可创建新博文：<br>
 一种是直接在/source/_posts添加.md文件<br>
 一种是根目录下敲代码</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new post &quot;article title“</span><br></pre></td></tr></table></figure>
+ <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> post <span class="string">"article title“</span></span><br></pre></td></tr></table></figure>
 <p>但最终都需要用markdown语法编辑好后保存。</p>
 <blockquote>
 <p>Win下Markdown软件推荐<a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VScode</a>，是不是有点屈才？附<a href="https://www.cnblogs.com/huyong/p/4573041.html" target="_blank" rel="noopener">1分钟VScode入门</a>以及<a href="https://www.jianshu.com/p/191d1e21f7ed" target="_blank" rel="noopener">1分钟markdown语法学习</a>。</p>
 </blockquote>
 <h4 id="2-7-后续上传"><a class="header-anchor" href="#2-7-后续上传">¶</a>2.7 后续上传</h4>
 <p>从第二次上传开始就无须安装插件了，只需三行。</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+ <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 <h3 id="3-还有一点点"><a class="header-anchor" href="#3-还有一点点">¶</a>3 还有一点点</h3>
 <h4 id="3-1-Hexo技巧"><a class="header-anchor" href="#3-1-Hexo技巧">¶</a>3.1 <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo技巧</a></h4>
 <ul>
@@ -307,7 +307,7 @@
 </ul>
 <h4 id="3-3-跨电脑修改博客"><a class="header-anchor" href="#3-3-跨电脑修改博客">¶</a>3.3 跨电脑修改博客</h4>
 <p>需要用Git把线上包下载到本地，链接最好采用SSH链接，使用如下命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone git@github.com:Your-username&#x2F;Your-username.github.io.git</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone git@github.com:Your-username/Your-username.github.io.git</span><br></pre></td></tr></table></figure>
 <p>之后在本地修改，再上传即可</p>
 <h3 id="4-参考链接"><a class="header-anchor" href="#4-参考链接">¶</a>4 参考链接</h3>
 <ul>
@@ -471,7 +471,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">4k</span>
+    <span title="站点总字数">3k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>

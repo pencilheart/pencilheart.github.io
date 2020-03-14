@@ -25,7 +25,7 @@
 <h2 id="1-音乐"><a class="header-anchor" href="#1-音乐">¶</a>1 音乐</h2>
 <h3 id="1-1-blog内音乐"><a class="header-anchor" href="#1-1-blog内音乐">¶</a>1.1 blog内音乐</h3>
 
-    <div id="aplayer-xNfSmtOo" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-KFobSndB" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="2533852173" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>  
 <h4 id="1-1-1-安装hexo-tag-aplayer插件"><a class="header-anchor" href="#1-1-1-安装hexo-tag-aplayer插件">¶</a>1.1.1 安装<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">hexo-tag-aplayer插件</a></h4>
@@ -33,7 +33,7 @@
 <h4 id="1-1-2-在站点配置文件-config-yml中敲入"><a class="header-anchor" href="#1-1-2-在站点配置文件-config-yml中敲入">¶</a>1.1.2 在站点配置文件_config.yml中敲入</h4>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">aplayer:</span><br><span class="line">  meting: true</span><br></pre></td></tr></table></figure>
 <h4 id="1-1-3-blog中敲入代码-￼5-就可使用-MetingJS-播放器了"><a class="header-anchor" href="#1-1-3-blog中敲入代码-￼5-就可使用-MetingJS-播放器了">¶</a>1.1.3 blog中敲入代码<code>{% meting id, server, type%}</code>就可使用 MetingJS 播放器了</h4>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 本blog音乐源代码 --&gt;</span><br><span class="line">&#123;% meting &quot;2533852173&quot; &quot;netease&quot; &quot;playlist&quot; %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="comment">&lt;!-- 本blog音乐源代码 --&gt;</span></span></span><br><span class="line">&#123;% meting "2533852173" "netease" "playlist" %&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p><code>{% meting id, server, type%}</code>格式解释:</p>
 <ul>
@@ -48,7 +48,7 @@
 <h3 id="1-2-侧边栏音乐"><a class="header-anchor" href="#1-2-侧边栏音乐">¶</a>1.2 侧边栏音乐</h3>
 <p>在\themes\next\layout_macro\sidebar.swig中加入一行网易云外链，外链链接直接网页访问你的歌单旁边就有。</p>
 <img src="/2020-03-14-Blog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87%EF%BC%88Hexo+Next%EF%BC%89/neteasy.png" class="">
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--本主页侧边栏音乐的源代码--&gt;</span><br><span class="line">&lt;iframe frameborder&#x3D;&quot;no&quot; border&#x3D;&quot;0&quot; marginwidth&#x3D;&quot;0&quot; marginheight&#x3D;&quot;0&quot; width&#x3D;298 height&#x3D;52 src&#x3D;&quot;&#x2F;&#x2F;music.163.com&#x2F;outchain&#x2F;player?type&#x3D;0&amp;id&#x3D;4913366898&amp;auto&#x3D;0&amp;height&#x3D;32&quot;&gt;&lt;&#x2F;iframe&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="comment">&lt;!--本主页侧边栏音乐的源代码--&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">frameborder</span>=<span class="string">"no"</span> <span class="attr">border</span>=<span class="string">"0"</span> <span class="attr">marginwidth</span>=<span class="string">"0"</span> <span class="attr">marginheight</span>=<span class="string">"0"</span> <span class="attr">width</span>=<span class="string">298</span> <span class="attr">height</span>=<span class="string">52</span> <span class="attr">src</span>=<span class="string">"//music.163.com/outchain/player?type=0&amp;id=4913366898&amp;auto=0&amp;height=32"</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>外链这种方法有个弊端，就是在歌单内播到版权音乐时会自动停止。本来侧边栏也想用上面blog的aplayer插件，但是失败告终，所以侧边栏只能用外链方法将就。</p>
 </blockquote>
@@ -57,14 +57,14 @@
 <h2 id="2-视频"><a class="header-anchor" href="#2-视频">¶</a>2 视频</h2>
 <p>和侧边栏音乐一样，使用外链。</p>
 <iframe src="//player.bilibili.com/player.html?aid=5256249&cid=8541950&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--本视频链接的源代码--&gt;</span><br><span class="line">&lt;iframe src&#x3D;&quot;&#x2F;&#x2F;player.bilibili.com&#x2F;player.html?aid&#x3D;5256249&amp;cid&#x3D;8541950&amp;page&#x3D;1&quot; scrolling&#x3D;&quot;no&quot; border&#x3D;&quot;0&quot; frameborder&#x3D;&quot;no&quot; framespacing&#x3D;&quot;0&quot; allowfullscreen&#x3D;&quot;true&quot;&gt; &lt;&#x2F;iframe&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="comment">&lt;!--本视频链接的源代码--&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">"//player.bilibili.com/player.html?aid=5256249&amp;cid=8541950&amp;page=1"</span> <span class="attr">scrolling</span>=<span class="string">"no"</span> <span class="attr">border</span>=<span class="string">"0"</span> <span class="attr">frameborder</span>=<span class="string">"no"</span> <span class="attr">framespacing</span>=<span class="string">"0"</span> <span class="attr">allowfullscreen</span>=<span class="string">"true"</span>&gt;</span></span> <span class="xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 <p>b站嵌入代码获取方式如下图：</p>
 <img src="/2020-03-14-Blog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87%EF%BC%88Hexo+Next%EF%BC%89/viedo.png" class="">
 <h2 id="3-图片"><a class="header-anchor" href="#3-图片">¶</a>3 图片</h2>
 <p>借鉴<a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="noopener">Hexo官方插图教程</a>搞定！</p>
 <p>设置站点配置文件_config.yml中post_asset_folder: true，之后在Blog中敲入代码<code>{% asset_img 文件名.jpg 显示的小标题 %}</code>就ok了。</p>
 <p>附：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--上节b站图片的源代码--&gt;</span><br><span class="line">&#123;% asset_img viedo.png %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="comment">&lt;!--上节b站图片的源代码--&gt;</span></span></span><br><span class="line">&#123;% asset_img viedo.png %&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>不推荐<code>![](/images/image.jpg)</code>的方法，说实话，我的显示不了。</p>
 </blockquote>
@@ -91,38 +91,38 @@
 <li><a href="https://nodejs.org/ko/blog/release/v9.11.1/" target="_blank" rel="noopener">安装Node.js</a>，一路下一步。</li>
 </ul>
 <h4 id="2-2-本地安装Hexo"><a class="header-anchor" href="#2-2-本地安装Hexo">¶</a>2.2 本地安装Hexo</h4>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cd d:&#x2F;blog			# 或者右键文件夹根目录Git Bash </span><br><span class="line">npm i hexo-cli -g		# 安装Hexo</span><br><span class="line">Hexo -v				# 检查Hexo，显示版本号继续</span><br><span class="line">hexo init			# 初始化Hexo博客</span><br><span class="line">npm install			# 安装组件</span><br><span class="line">hexo g				# 生成静态网页</span><br><span class="line">hexo s				# 打开服务器，可以在http:&#x2F;&#x2F;localhost:4000&#x2F; 查看</span><br><span class="line">ctrl+c				# 关闭本地服务器</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">cd d:/blog			# 或者右键文件夹根目录Git Bash </span><br><span class="line">npm i hexo-cli -g		# 安装Hexo</span><br><span class="line">Hexo -v				# 检查Hexo，显示版本号继续</span><br><span class="line">hexo init			# 初始化Hexo博客</span><br><span class="line">npm install			# 安装组件</span><br><span class="line">hexo g				# 生成静态网页</span><br><span class="line">hexo s				# 打开服务器，可以在http:<span class="comment">//localhost:4000/ 查看</span></span><br><span class="line">ctrl+c				# 关闭本地服务器</span><br></pre></td></tr></table></figure>
 <p>实现本地查看博客，jer动不？</p>
 <h4 id="2-3-本地绑定GitHub"><a class="header-anchor" href="#2-3-本地绑定GitHub">¶</a>2.3 本地绑定GitHub</h4>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;Your_username&quot;</span><br><span class="line">git config --global user.email &quot;Your_email@qq.com&quot;   </span><br><span class="line">ssh-keygen -t rsa -C &quot;Your_email@qq.com&quot;		# 安装本地SSH</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">config</span> --global user.name <span class="string">"Your_username"</span></span><br><span class="line">git <span class="built_in">config</span> --global user.email <span class="string">"Your_email@qq.com"</span>   </span><br><span class="line">ssh-keygen -t rsa -C <span class="string">"Your_email@qq.com"</span>		# 安装本地SSH</span><br></pre></td></tr></table></figure>
 <p>Enter三连。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cat ~&#x2F;.ssh&#x2F;id_rsa.pub		# 生成SSH密码</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub		# 生成SSH密码</span><br></pre></td></tr></table></figure>
 <p>打开github网站，登录后点击头像-settings，左侧SSH and GPG keys，新建一个SSH，名字随便，填入上步的得到的SSH密码。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
 <p>检测到用户名即为成功绑定。</p>
 <h4 id="2-4-修改本地包上传目的地为GitHub"><a class="header-anchor" href="#2-4-修改本地包上传目的地为GitHub">¶</a>2.4 修改本地包上传目的地为GitHub</h4>
 <p>修改本地根目录文件_config.yml<br>
 修改最后一行的配置为：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:&#x2F;&#x2F;github.com&#x2F;Your_username&#x2F;Your_username.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:<span class="comment">//github.com/Your_username/Your_username.github.io.git</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>新版github博客只可显示master分支</p>
 <img src="/2020-03-12-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(GitHub%20Pages+%20Hexo)/settingsss.png" class="">
 </blockquote>
 <h4 id="2-5-第一次上传"><a class="header-anchor" href="#2-5-第一次上传">¶</a>2.5 第一次上传</h4>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save	#上传插件，自动装入package.json文件中</span><br><span class="line">hexo clean				#清缓存</span><br><span class="line">hexo g					#生成静态网页</span><br><span class="line">hexo d					#上传到GitHub</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save	#上传插件，自动装入package.json文件中</span><br><span class="line">hexo clean				#清缓存</span><br><span class="line">hexo g					#生成静态网页</span><br><span class="line">hexo d					#上传到GitHub</span><br></pre></td></tr></table></figure>
 <p><strong>💥上传完毕后，浏览器访问https://github.com/Your_username/Your_username.github.io 即可查看你的博客了。</strong></p>
 <h4 id="2-6-写博文"><a class="header-anchor" href="#2-6-写博文">¶</a>2.6 写博文</h4>
 <p>以下两种方法都可创建新博文：<br>
 一种是直接在/source/_posts添加.md文件<br>
 一种是根目录下敲代码</p>
- <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new post &quot;article title“</span><br></pre></td></tr></table></figure>
+ <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> post <span class="string">"article title“</span></span><br></pre></td></tr></table></figure>
 <p>但最终都需要用markdown语法编辑好后保存。</p>
 <blockquote>
 <p>Win下Markdown软件推荐<a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VScode</a>，是不是有点屈才？附<a href="https://www.cnblogs.com/huyong/p/4573041.html" target="_blank" rel="noopener">1分钟VScode入门</a>以及<a href="https://www.jianshu.com/p/191d1e21f7ed" target="_blank" rel="noopener">1分钟markdown语法学习</a>。</p>
 </blockquote>
 <h4 id="2-7-后续上传"><a class="header-anchor" href="#2-7-后续上传">¶</a>2.7 后续上传</h4>
 <p>从第二次上传开始就无须安装插件了，只需三行。</p>
- <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+ <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 <h3 id="3-还有一点点"><a class="header-anchor" href="#3-还有一点点">¶</a>3 还有一点点</h3>
 <h4 id="3-1-Hexo技巧"><a class="header-anchor" href="#3-1-Hexo技巧">¶</a>3.1 <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo技巧</a></h4>
 <ul>
@@ -141,7 +141,7 @@
 </ul>
 <h4 id="3-3-跨电脑修改博客"><a class="header-anchor" href="#3-3-跨电脑修改博客">¶</a>3.3 跨电脑修改博客</h4>
 <p>需要用Git把线上包下载到本地，链接最好采用SSH链接，使用如下命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone git@github.com:Your-username&#x2F;Your-username.github.io.git</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">git clone git@github.com:Your-username/Your-username.github.io.git</span><br></pre></td></tr></table></figure>
 <p>之后在本地修改，再上传即可</p>
 <h3 id="4-参考链接"><a class="header-anchor" href="#4-参考链接">¶</a>4 参考链接</h3>
 <ul>
