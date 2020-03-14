@@ -4,34 +4,26 @@
     <title>Hexo+Next之Blog中插入音乐、视频、图片</title>
     <url>/2020-03-14-Hexo+Next%E4%B9%8BBlog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>Hexo+Next之Blog中插入音乐、视频、图片</h1>
-<p>本着“有官方教程绝不bb”的原则，以下问题官文很好懂的会直接甩链接，接好。</p>
+<p>本着“有官方教程绝不可劲bb”的原则，以下问题官文很好懂的会直接甩链接，接好。</p>
+<a id="more"></a>
 <p>本文使用的环境是Hexo4.2和Next7.7.2</p>
 <h2 id="1-音乐"><a class="header-anchor" href="#1-音乐">¶</a>1 音乐</h2>
 <h3 id="1-1-blog内音乐"><a class="header-anchor" href="#1-1-blog内音乐">¶</a>1.1 blog内音乐</h3>
 
-    <div id="aplayer-rgQiHlJe" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-qTysPWdH" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="2533852173" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>  
-<p><a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">hexo-tag-aplayer插件</a></p>
-<ul>
-<li>
-<p>安装插件</p>
+<h4 id="1-1-1-安装hexo-tag-aplayer插件"><a class="header-anchor" href="#1-1-1-安装hexo-tag-aplayer插件">¶</a>1.1.1 安装<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">hexo-tag-aplayer插件</a></h4>
 <p><code>npm install --save hexo-tag-aplayer</code></p>
-</li>
-<li>
-<p>在站点配置文件_config.yml中加入</p>
-</li>
-</ul>
+<h4 id="1-1-2-在站点配置文件-config-yml中加入"><a class="header-anchor" href="#1-1-2-在站点配置文件-config-yml中加入">¶</a>1.1.2 在站点配置文件_config.yml中加入</h4>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">aplayer:</span><br><span class="line">  meting: true</span><br></pre></td></tr></table></figure>
-<ul>
-<li>blog中插入 
-    <div id="aplayer-RWTWxrrU" class="aplayer aplayer-tag-marker meting-tag-marker"
-         data-id="..." data-server="undefined" data-type="undefined" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
-    ></div> 就可使用 MetingJS 播放器了：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 示例 (id, server, type)  --&gt;</span><br><span class="line">&#123;% meting &quot;60198&quot; &quot;netease&quot; &quot;playlist&quot; %&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="1-1-3-blog中插入-￼6-就可使用-MetingJS-播放器了："><a class="header-anchor" href="#1-1-3-blog中插入-￼6-就可使用-MetingJS-播放器了：">¶</a>1.1.3 blog中插入<code>
+    <div id="aplayer-OuUclDMw" class="aplayer aplayer-tag-marker meting-tag-marker"
+         data-id="id," data-server="server," data-type="type" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
+    ></div></code> 就可使用 MetingJS 播放器了：</h4>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!-- 本blog音乐源代码 --&gt;</span><br><span class="line">&#123;% meting &quot;2533852173&quot; &quot;netease&quot; &quot;playlist&quot; %&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>示例中:</p>
+<p>格式解释:</p>
 <ul>
 <li>id就是歌曲或播放列表的id，打开音乐的网页地址栏的数字就是id</li>
 <li>serve就是在<code>netease, tencent, kugou, xiami, baidu</code>中选你的平台</li>
@@ -39,29 +31,28 @@
 </ul>
 </blockquote>
 <blockquote>
-<p>想高级设置进阶的参见<a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md" target="_blank" rel="noopener">hexo-tag-aplayer中文文档</a>中**MeingJS 支持 (3.0 新功能)**栏目</p>
+<p>想高级设置进阶的参见<a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md" target="_blank" rel="noopener">hexo-tag-aplayer中文文档</a>中 <strong>MeingJS 支持 (3.0 新功能)</strong> 栏目</p>
 </blockquote>
 <h3 id="1-2-侧边栏音乐"><a class="header-anchor" href="#1-2-侧边栏音乐">¶</a>1.2 侧边栏音乐</h3>
 <p>在\themes\next\layout_macro\sidebar.swig中加入一行网易云外链，外链链接直接网页访问你的歌单旁边就有。</p>
-
-<blockquote>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&lt;!--例子--&gt;</span><br><span class="line">&gt;&lt;iframe frameborder&#x3D;&quot;no&quot; border&#x3D;&quot;0&quot; marginwidth&#x3D;&quot;0&quot; marginheight&#x3D;&quot;0&quot; width&#x3D;298 height&#x3D;52 src&#x3D;&quot;&#x2F;&#x2F;music.163.com&#x2F;outchain&#x2F;player?type&#x3D;0&amp;id&#x3D;4913366898&amp;auto&#x3D;0&amp;height&#x3D;32&quot;&gt;&lt;&#x2F;iframe&gt;</span><br></pre></td></tr></table></figure>
-</blockquote>
+<img src="/2020-03-14-Hexo+Next%E4%B9%8BBlog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87/neteasy.png" class="">
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--本主页侧边栏音乐的源代码--&gt;</span><br><span class="line">&lt;iframe frameborder&#x3D;&quot;no&quot; border&#x3D;&quot;0&quot; marginwidth&#x3D;&quot;0&quot; marginheight&#x3D;&quot;0&quot; width&#x3D;298 height&#x3D;52 src&#x3D;&quot;&#x2F;&#x2F;music.163.com&#x2F;outchain&#x2F;player?type&#x3D;0&amp;id&#x3D;4913366898&amp;auto&#x3D;0&amp;height&#x3D;32&quot;&gt;&lt;&#x2F;iframe&gt;</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>外链这种方法有个弊端，就是在歌单内播到版权音乐时会自动停止。本来侧边栏也想用上面blog的aplayer插件，但是失败告终，所以侧边栏只能用外链方法将就。</p>
 </blockquote>
 <h2 id="2-视频"><a class="header-anchor" href="#2-视频">¶</a>2 视频</h2>
 <p>和侧边栏音乐一样，使用外链。</p>
-<img src="/2020-03-14-Hexo+Next%E4%B9%8BBlog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87/viedo.png" class="">
 <iframe src="//player.bilibili.com/player.html?aid=5256249&cid=8541950&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 <blockquote>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&lt;!--视频链接的源代码--&gt;</span><br><span class="line">&gt;&lt;iframe src&#x3D;&quot;&#x2F;&#x2F;player.bilibili.com&#x2F;player.html?aid&#x3D;5256249&amp;cid&#x3D;8541950&amp;page&#x3D;1&quot; scrolling&#x3D;&quot;no&quot; border&#x3D;&quot;0&quot; frameborder&#x3D;&quot;no&quot; framespacing&#x3D;&quot;0&quot; allowfullscreen&#x3D;&quot;true&quot;&gt; &lt;&#x2F;iframe&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&gt;&lt;!--本视频链接的源代码--&gt;</span><br><span class="line">&gt;&lt;iframe src&#x3D;&quot;&#x2F;&#x2F;player.bilibili.com&#x2F;player.html?aid&#x3D;5256249&amp;cid&#x3D;8541950&amp;page&#x3D;1&quot; scrolling&#x3D;&quot;no&quot; border&#x3D;&quot;0&quot; frameborder&#x3D;&quot;no&quot; framespacing&#x3D;&quot;0&quot; allowfullscreen&#x3D;&quot;true&quot;&gt; &lt;&#x2F;iframe&gt;</span><br></pre></td></tr></table></figure>
 </blockquote>
+<p>b站嵌入代码获取方式如下图：</p>
+<img src="/2020-03-14-Hexo+Next%E4%B9%8BBlog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87/viedo.png" class="">
 <h2 id="3-图片"><a class="header-anchor" href="#3-图片">¶</a>3 图片</h2>
-<p>借鉴<a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="noopener">Hexo官方插图教程</a>搞定！推荐使用<code></code></p>
-<blockquote>
-<p>效果如上节内容中网易云页面。</p>
-</blockquote>
+<p>借鉴<a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="noopener">Hexo官方插图教程</a>搞定！推荐设置站点配置文件_config.yml中<br>
+post_asset_folder: true，再使用<code></code></p>
+<p>附：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--上节b站图片的源代码--&gt;</span><br><span class="line">&#123;% asset_img viedo.png %&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>不推荐<code>![](/images/image.jpg)</code>的方法，说实话，我的显示不了。</p>
 </blockquote>
