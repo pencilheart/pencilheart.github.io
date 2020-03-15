@@ -108,7 +108,7 @@
 <p>附：</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="comment">&lt;!--上节b站图片的源代码--&gt;</span></span></span><br><span class="line">&#123;% asset_img viedo.png %&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>不推荐<code>![](/images/image.jpg)</code>的方法，说实话，我的显示不了。</p>
+<p>不推荐<code>![](/images/image.jpg)</code>的方法，说实话，我用了没成功😂。</p>
 </blockquote>
 <div class="note info">
             <h2 id="推这篇Blog时遇到的问题："><a class="header-anchor" href="#推这篇Blog时遇到的问题：">¶</a>推这篇Blog时遇到的问题：</h2>
