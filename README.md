@@ -1,11 +1,7 @@
----
-title: 搭建自己的个人博客(GitHub Pages+ Hexo)
-date: 2020/3/12 23:55:55
-tags: 技术
----
+# 搭建自己的个人博客(GitHub Pages+ Hexo)
 
-<blockquote class="blockquote-center">两天的学习，查了众多大佬的好文，整理出来，算对自己学习的一个总结。win10亲测。</blockquote>
 
+两天的学习，查了众多大佬的好文，整理出来，算对自己学习的一个总结。win10亲测。
 <!-- more -->
  
 **注意：文中代码区皆在Git Bash中输入**
