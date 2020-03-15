@@ -5,12 +5,14 @@
     <url>/2020-03-14-pjax%E5%AE%9E%E7%8E%B0%E6%AD%8C%E6%9B%B2%E6%94%BE%E4%B8%8D%E5%81%9C.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote class="blockquote-center">谨以此文纪念X一样的我。</blockquote>
 <a id="more"></a>
-<p>现在已经实现了<a href="https://pencilheart.github.io/2020-03-14-Hexo+Next%E4%B9%8BBlog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87.html#more" target="_blank" rel="noopener">页面内音乐播放</a>，但是很容易就发现在切换页面时音乐就停了。。。</p>
+<p>现在已经实现了<a href="https://pencilheart.github.io/2020-03-14-Blog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87%EF%BC%88Hexo+Next%EF%BC%89.html?cache-bust=1584238666378#more">页面内音乐播放</a>，但是很容易就发现在切换页面时音乐就停了。。。</p>
 <p>所以，强迫症患者就找了一下午如何实现跳转页面时音乐不停。先是看很多博文听说了pjax，之后又听说next集成了pjax，就把站点配置文件_config.yml中的pjax打开了，然而，没用。</p>
 <p>直到现在！我遇到了<a href="https://cuiqingcai.com/7625.html" target="_blank" rel="noopener">崔庆才老师</a>！！！一语惊醒梦中人！！！</p>
 <img src="/2020-03-14-pjax%E5%AE%9E%E7%8E%B0%E6%AD%8C%E6%9B%B2%E6%94%BE%E4%B8%8D%E5%81%9C/pjax.png" class="" title="人类之光啊">
 <p>原来！！！我还没有安装pjax依赖库！瞬间哭了有没有！这回是真的蠢到自己了😂</p>
-<p>但愿自己以后长点脑子🎯</p>
+<p>翻开<a href="https://theme-next.org/docs/getting-started/index.html" target="_blank" rel="noopener">官文</a>反思吧，官文写的可是清清楚楚，要下载之后才可使用。。。</p>
+<img src="/2020-03-14-pjax%E5%AE%9E%E7%8E%B0%E6%AD%8C%E6%9B%B2%E6%94%BE%E4%B8%8D%E5%81%9C/next_help.png" class="" title="Next官文">
+<p>我去学官文了，但愿自己以后长点脑子🎯</p>
 ]]></content>
       <tags>
         <tag>技术</tag>
@@ -25,7 +27,7 @@
 <h2 id="1-音乐"><a class="header-anchor" href="#1-音乐">¶</a>1 音乐</h2>
 <h3 id="1-1-blog内音乐"><a class="header-anchor" href="#1-1-blog内音乐">¶</a>1.1 blog内音乐</h3>
 
-    <div id="aplayer-ldOaFdHB" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-HhHaZtTP" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="2533852173" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>  
 <h4 id="1-1-1-安装hexo-tag-aplayer插件"><a class="header-anchor" href="#1-1-1-安装hexo-tag-aplayer插件">¶</a>1.1.1 安装<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">hexo-tag-aplayer插件</a></h4>
