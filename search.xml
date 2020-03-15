@@ -24,17 +24,19 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote class="blockquote-center">本着“有官方教程绝不可劲bb”的原则，以下问题官文很好懂的会直接甩链接，接好。</blockquote>
 <a id="more"></a>
 <p>本文使用的环境是Hexo4.2和Next7.7.2</p>
-<h2 id="1-音乐"><a class="header-anchor" href="#1-音乐">¶</a>1 音乐</h2>
+<div class="note default no-icon">
+            <h2 id="1-音乐"><a class="header-anchor" href="#1-音乐">¶</a>1 音乐</h2>
+          </div>
 <h3 id="1-1-blog内音乐"><a class="header-anchor" href="#1-1-blog内音乐">¶</a>1.1 blog内音乐</h3>
 
-    <div id="aplayer-HhHaZtTP" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-rxqEkKPm" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="2533852173" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>  
 <h4 id="1-1-1-安装hexo-tag-aplayer插件"><a class="header-anchor" href="#1-1-1-安装hexo-tag-aplayer插件">¶</a>1.1.1 安装<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">hexo-tag-aplayer插件</a></h4>
 <p><code>npm install --save hexo-tag-aplayer</code></p>
 <h4 id="1-1-2-在站点配置文件-config-yml中敲入"><a class="header-anchor" href="#1-1-2-在站点配置文件-config-yml中敲入">¶</a>1.1.2 在站点配置文件_config.yml中敲入</h4>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">aplayer:</span><br><span class="line">  meting: true</span><br></pre></td></tr></table></figure>
-<h4 id="1-1-3-blog中敲入代码-￼5-就可使用-MetingJS-播放器了"><a class="header-anchor" href="#1-1-3-blog中敲入代码-￼5-就可使用-MetingJS-播放器了">¶</a>1.1.3 blog中敲入代码<code>{% meting id, server, type%}</code>就可使用 MetingJS 播放器了</h4>
+<h4 id="1-1-3-blog中敲入代码-￼6-就可使用-MetingJS-播放器了"><a class="header-anchor" href="#1-1-3-blog中敲入代码-￼6-就可使用-MetingJS-播放器了">¶</a>1.1.3 blog中敲入代码<code>{% meting id, server, type%}</code>就可使用 MetingJS 播放器了</h4>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="comment">&lt;!-- 本blog音乐源代码 --&gt;</span></span></span><br><span class="line">&#123;% meting "2533852173" "netease" "playlist" %&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p><code>{% meting id, server, type%}</code>格式解释:</p>
@@ -56,13 +58,17 @@
 </blockquote>
 <h3 id="1-3-页脚音乐"><a class="header-anchor" href="#1-3-页脚音乐">¶</a>1.3 页脚音乐</h3>
 <p>代码和上面一样，依然使用外链，只不过目录改为<code>\themes\next\layout\_partials\footer.swig</code> ，代码敲在最后一行就可以。</p>
-<h2 id="2-视频"><a class="header-anchor" href="#2-视频">¶</a>2 视频</h2>
+<div class="note default no-icon">
+            <h2 id="2-视频"><a class="header-anchor" href="#2-视频">¶</a>2 视频</h2>
+          </div>
 <p>和侧边栏音乐一样，使用外链。</p>
 <iframe src="//player.bilibili.com/player.html?aid=5256249&cid=8541950&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="comment">&lt;!--本视频链接的源代码--&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">"//player.bilibili.com/player.html?aid=5256249&amp;cid=8541950&amp;page=1"</span> <span class="attr">scrolling</span>=<span class="string">"no"</span> <span class="attr">border</span>=<span class="string">"0"</span> <span class="attr">frameborder</span>=<span class="string">"no"</span> <span class="attr">framespacing</span>=<span class="string">"0"</span> <span class="attr">allowfullscreen</span>=<span class="string">"true"</span>&gt;</span></span> <span class="xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 <p>b站嵌入代码获取方式如下图：</p>
 <img src="/2020-03-14-Blog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87%EF%BC%88Hexo+Next%EF%BC%89/viedo.png" class="">
-<h2 id="3-图片"><a class="header-anchor" href="#3-图片">¶</a>3 图片</h2>
+<div class="note default no-icon">
+            <h2 id="3-图片"><a class="header-anchor" href="#3-图片">¶</a>3 图片</h2>
+          </div>
 <p>借鉴<a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="noopener">Hexo官方插图教程</a>搞定！</p>
 <p>设置站点配置文件_config.yml中post_asset_folder: true，之后在Blog中敲入代码<code>{% asset_img 文件名.jpg 显示的小标题 %}</code>就ok了。</p>
 <p>附：</p>
@@ -70,7 +76,9 @@
 <blockquote>
 <p>不推荐<code>![](/images/image.jpg)</code>的方法，说实话，我的显示不了。</p>
 </blockquote>
-<h2 id="4-推这篇Blog时遇到的问题："><a class="header-anchor" href="#4-推这篇Blog时遇到的问题：">¶</a>4 推这篇Blog时遇到的问题：</h2>
+<div class="note info">
+            <h2 id="推这篇Blog时遇到的问题："><a class="header-anchor" href="#推这篇Blog时遇到的问题：">¶</a>推这篇Blog时遇到的问题：</h2>
+          </div>
 <p><a href="https://hexo.io/zh-cn/docs/troubleshooting.html" target="_blank" rel="noopener">Hexo代码块中含有{}无法显示的解决办法</a> <strong>泄露（Escape）内容</strong> 部分</p>
 ]]></content>
       <tags>
@@ -83,10 +91,14 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote class="blockquote-center">两天的学习，查了众多大佬的好文，整理出来，算对自己学习的一个总结。win10亲测。</blockquote>
 <a id="more"></a>
 <p><strong>注意：文中代码区皆在Git Bash中输入</strong></p>
-<h3 id="1-网页端"><a class="header-anchor" href="#1-网页端">¶</a>1 网页端</h3>
+<div class="note defalt no-icon">
+            <h3 id="1-网页端"><a class="header-anchor" href="#1-网页端">¶</a>1 网页端</h3>
+          </div>
 <h4 id="1-1-注册GitHub账号"><a class="header-anchor" href="#1-1-注册GitHub账号">¶</a>1.1 注册GitHub账号</h4>
 <h4 id="1-2-创建Your-username-github-io的Public仓库"><a class="header-anchor" href="#1-2-创建Your-username-github-io的Public仓库">¶</a>1.2 创建Your_username.github.io的Public仓库</h4>
-<h3 id="2-本地端"><a class="header-anchor" href="#2-本地端">¶</a>2 本地端</h3>
+<div class="note no-icon">
+            <h3 id="2-本地端"><a class="header-anchor" href="#2-本地端">¶</a>2 本地端</h3>
+          </div>
 <h4 id="2-1-环境配置"><a class="header-anchor" href="#2-1-环境配置">¶</a>2.1 <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">环境配置</a></h4>
 <ul>
 <li><a href="http://git-scm.com/download/" target="_blank" rel="noopener">安装Git</a></li>
@@ -110,7 +122,9 @@
 <p>新版github博客只可显示master分支</p>
 <img src="/2020-03-12-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(GitHub%20Pages+%20Hexo)/settingsss.png" class="">
 </blockquote>
-<h4 id="2-5-第一次上传"><a class="header-anchor" href="#2-5-第一次上传">¶</a>2.5 第一次上传</h4>
+<div class="note success">
+            <h4 id="2-5-第一次上传"><a class="header-anchor" href="#2-5-第一次上传">¶</a>2.5 第一次上传</h4>
+          </div>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save	#上传插件，自动装入package.json文件中</span><br><span class="line">hexo clean				#清缓存</span><br><span class="line">hexo g					#生成静态网页</span><br><span class="line">hexo d					#上传到GitHub</span><br></pre></td></tr></table></figure>
 <p><strong>💥上传完毕后，浏览器访问https://github.com/Your_username/Your_username.github.io 即可查看你的博客了。</strong></p>
 <h4 id="2-6-写博文"><a class="header-anchor" href="#2-6-写博文">¶</a>2.6 写博文</h4>
@@ -125,8 +139,10 @@
 <h4 id="2-7-后续上传"><a class="header-anchor" href="#2-7-后续上传">¶</a>2.7 后续上传</h4>
 <p>从第二次上传开始就无须安装插件了，只需三行。</p>
  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<h3 id="3-还有一点点"><a class="header-anchor" href="#3-还有一点点">¶</a>3 还有一点点</h3>
-<h4 id="3-1-Hexo技巧"><a class="header-anchor" href="#3-1-Hexo技巧">¶</a>3.1 <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo技巧</a></h4>
+<div class="note info">
+            <h3 id="还有一点点"><a class="header-anchor" href="#还有一点点">¶</a>还有一点点</h3>
+          </div>
+<h4 id="Hexo技巧"><a class="header-anchor" href="#Hexo技巧">¶</a><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo技巧</a></h4>
 <ul>
 <li>
 <p><a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="noopener">添加图片</a></p>
@@ -137,15 +153,17 @@
 <p>采用hexo-renderer-markdown-it插件代替hexo-renderer-markdown</p>
 </li>
 </ul>
-<h4 id="3-2-更换博客模板—推荐Next模板"><a class="header-anchor" href="#3-2-更换博客模板—推荐Next模板">¶</a>3.2 更换博客模板—推荐<a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">Next</a>模板</h4>
+<h4 id="更换博客模板—推荐Next模板"><a class="header-anchor" href="#更换博客模板—推荐Next模板">¶</a>更换博客模板—推荐<a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">Next</a>模板</h4>
 <ul>
 <li><a href="https://theme-next.org/docs/getting-started/" target="_blank" rel="noopener">Next官方主题配置</a> 、<a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#top" target="_blank" rel="noopener">Next民间个性化</a></li>
 </ul>
-<h4 id="3-3-跨电脑修改博客"><a class="header-anchor" href="#3-3-跨电脑修改博客">¶</a>3.3 跨电脑修改博客</h4>
+<h4 id="跨电脑修改博客"><a class="header-anchor" href="#跨电脑修改博客">¶</a>跨电脑修改博客</h4>
 <p>需要用Git把线上包下载到本地，链接最好采用SSH链接，使用如下命令：</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">git clone git@github.com:Your-username/Your-username.github.io.git</span><br></pre></td></tr></table></figure>
 <p>之后在本地修改，再上传即可</p>
-<h3 id="4-参考链接"><a class="header-anchor" href="#4-参考链接">¶</a>4 参考链接</h3>
+<div class="note info">
+            <h3 id="参考链接"><a class="header-anchor" href="#参考链接">¶</a>参考链接</h3>
+          </div>
 <ul>
 <li><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo官方文档</a></li>
 <li><a href="https://theme-next.org/docs/getting-started/" target="_blank" rel="noopener">Next官方文档</a></li>
