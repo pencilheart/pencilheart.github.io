@@ -3,7 +3,7 @@
   <entry>
     <title>next官文学习笔记</title>
     <url>/2020-03-15-next%E5%AE%98%E6%96%87%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote class="blockquote-center">学习官文，增强自信</blockquote>
+    <content><![CDATA[<blockquote class="blockquote-center">学习官文，增强自信</blockquote>
 <a id="more"></a>
 <h2 id="note"><a class="header-anchor" href="#note">¶</a>note</h2>
 <div class="note success">
@@ -22,13 +22,13 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--源代码--&gt;</span><br><span class="line">&#123;% raw %&#125;&#123;% btn , click, github fa-fw fa-lg, NexT source code %&#125;&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--格式--&gt;</span><br><span class="line">&#123;% raw %&#125;</span><br><span class="line">&#123;% button url, text, icon [class], [title] %&#125;</span><br><span class="line">&lt;!-- Tag Alias --&gt;</span><br><span class="line">&#123;% btn url, text, icon [class], [title] %&#125;</span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
-        <tag>笔记</tag>
+        <tag>建站</tag>
       </tags>
   </entry>
   <entry>
     <title>pjax实现歌曲放不停</title>
     <url>/2020-03-14-pjax%E5%AE%9E%E7%8E%B0%E6%AD%8C%E6%9B%B2%E6%94%BE%E4%B8%8D%E5%81%9C.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote class="blockquote-center">谨以此文纪念X一样的我。</blockquote>
+    <content><![CDATA[<blockquote class="blockquote-center">谨以此文纪念X一样的我。</blockquote>
 <a id="more"></a>
 <p>现在已经实现了<a href="https://pencilheart.github.io/2020-03-14-Blog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87%EF%BC%88Hexo+Next%EF%BC%89.html?cache-bust=1584238666378#more">页面内音乐播放</a>，但是很容易就发现在切换页面时音乐就停了。。。</p>
 <p>所以，强迫症患者就找了一下午如何实现跳转页面时音乐不停。先是看很多博文听说了pjax，之后又听说next集成了pjax，就把站点配置文件_config.yml中的pjax打开了，然而，没用。</p>
@@ -38,30 +38,39 @@
 <p>翻开<a href="https://theme-next.org/docs/getting-started/index.html" target="_blank" rel="noopener">官文</a>反思吧，官文写的可是清清楚楚，要下载之后才可使用。。。</p>
 <img src="/2020-03-14-pjax%E5%AE%9E%E7%8E%B0%E6%AD%8C%E6%9B%B2%E6%94%BE%E4%B8%8D%E5%81%9C/next_help.png" class="" title="Next官文">
 <p>我去学官文了，但愿自己以后长点脑子🎯</p>
+<div class="note info">
+            <p><strong>后续更新</strong></p>
+          </div>
+<p>后面通过翻阅<a href="https://theme-next.org/docs/third-party-services/external-libraries" target="_blank" rel="noopener">NEXT官文</a>，发现相较于下载插件，直接用CDN代理更快更方便。</p>
+<p>只需在主题配置文件<code>_config.yml</code>中，将<code>Third Party Plugins &amp; Services Settings</code>部分的<code>pjax: true</code>后，再将<code>vendors:</code>中的pjax部分设置为<code> pjax: https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js</code>即可启用pjax，更加简单快捷。</p>
 ]]></content>
       <tags>
-        <tag>技术</tag>
+        <tag>建站</tag>
       </tags>
   </entry>
   <entry>
     <title>Blog中插入音乐、视频、图片（Hexo+Next）</title>
     <url>/2020-03-14-Blog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87%EF%BC%88Hexo+Next%EF%BC%89.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote class="blockquote-center">本着“有官方教程绝不可劲bb”的原则，以下问题官文很好懂的会直接甩链接，接好。</blockquote>
+    <content><![CDATA[<blockquote class="blockquote-center">本着“有官方教程绝不可劲bb”的原则，以下问题官文很好懂的会直接甩链接，接好。</blockquote>
 <a id="more"></a>
 <p>本文使用的环境是Hexo4.2和Next7.7.2</p>
 <div class="note default no-icon">
             <h2 id="1-音乐"><a class="header-anchor" href="#1-音乐">¶</a>1 音乐</h2>
           </div>
-<h3 id="1-1-blog内音乐"><a class="header-anchor" href="#1-1-blog内音乐">¶</a>1.1 blog内音乐</h3>
-
-    <div id="aplayer-dsdPyYtH" class="aplayer aplayer-tag-marker meting-tag-marker"
-         data-id="2533852173" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
-    ></div>  
-<h4 id="1-1-1-安装hexo-tag-aplayer插件"><a class="header-anchor" href="#1-1-1-安装hexo-tag-aplayer插件">¶</a>1.1.1 安装<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">hexo-tag-aplayer插件</a></h4>
+<div class="note success">
+            <h3 id="1-1-全局音乐"><a class="header-anchor" href="#1-1-全局音乐">¶</a>1.1 全局音乐</h3>
+          </div>
+<p>这一节总结自<a href="https://hakurei.red/2019/11/25/%E4%B8%BAHexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%85%A8%E5%B1%80APlayer%E6%92%AD%E6%94%BE%E5%99%A8/#Show-me-the-CODE" target="_blank" rel="noopener">博麓吹笛分</a>社和<a href="https://cloud.tencent.com/developer/article/1157669" target="_blank" rel="noopener">惶心</a>两位大佬以及<a href="https://aplayer.js.org/#/zh-Hans/?id=%E5%8F%82%E6%95%B0" target="_blank" rel="noopener">Aplayer官文</a>和<a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener">Meting官文</a>，再结合刚学的pjax做个总结，实现全局音乐不停歇。</p>
+<p>想要实现全局音乐，首先需要两个插件<a href="https://aplayer.js.org/#/zh-Hans/?id=%E5%8F%82%E6%95%B0" target="_blank" rel="noopener">Aplayer</a>和<a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener">Meting</a>。直接将下面代码copy到<code>\themes\next\layout\_layout.swig</code> 即可(直接找CDN，无需将插件安装到本地，省事还快，才发现的一大宝藏)：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- require APlayer --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- require MetingJS--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span> </span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"aplayer"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-id</span>=<span class="string">"2533852173"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-server</span>=<span class="string">"netease"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-type</span>=<span class="string">"playlist"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-fixed</span>=<span class="string">"true"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-autoplay</span>=<span class="string">"true"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-order</span>=<span class="string">"list"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-volume</span>=<span class="string">"0.7"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-theme</span>=<span class="string">"#FADFA3"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">date-preload</span>=<span class="string">"auto"</span> &gt;</span> </span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<img src="/2020-03-14-Blog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87%EF%BC%88Hexo+Next%EF%BC%89/metingjs.png" class="" title="选项列表，可自行设置">
+<p>那么要想实现全局页面切换歌不停，就得借助<a href="https://github.com/defunkt/jquery-pjax" target="_blank" rel="noopener">pjax插件</a>。移步<a href="https://pencilheart.github.io/2020-03-14-pjax%E5%AE%9E%E7%8E%B0%E6%AD%8C%E6%9B%B2%E6%94%BE%E4%B8%8D%E5%81%9C.html?cache-bust=1584281905370#more">可集成pjax实现跨页面歌不停</a>可瞬间解决全局歌停的问题。</p>
+<h3 id="1-2-blog内音乐"><a class="header-anchor" href="#1-2-blog内音乐">¶</a>1.2 blog内音乐</h3>
+<h4 id="1-2-1-安装hexo-tag-aplayer插件"><a class="header-anchor" href="#1-2-1-安装hexo-tag-aplayer插件">¶</a>1.2.1 安装<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">hexo-tag-aplayer插件</a></h4>
 <p><code>npm install --save hexo-tag-aplayer</code></p>
-<h4 id="1-1-2-在站点配置文件-config-yml中敲入"><a class="header-anchor" href="#1-1-2-在站点配置文件-config-yml中敲入">¶</a>1.1.2 在站点配置文件_config.yml中敲入</h4>
+<h4 id="1-2-2-在站点配置文件-config-yml中敲入"><a class="header-anchor" href="#1-2-2-在站点配置文件-config-yml中敲入">¶</a>1.2.2 在站点配置文件_config.yml中敲入</h4>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">aplayer:</span><br><span class="line">  meting: true</span><br></pre></td></tr></table></figure>
-<h4 id="1-1-3-blog中敲入代码-￼6-就可使用-MetingJS-播放器了"><a class="header-anchor" href="#1-1-3-blog中敲入代码-￼6-就可使用-MetingJS-播放器了">¶</a>1.1.3 blog中敲入代码<code>{% meting id, server, type%}</code>就可使用 MetingJS 播放器了</h4>
+<h4 id="1-2-3-blog中敲入代码-￼8-就可使用-MetingJS-播放器了"><a class="header-anchor" href="#1-2-3-blog中敲入代码-￼8-就可使用-MetingJS-播放器了">¶</a>1.2.3 blog中敲入代码<code>{% meting id, server, type%}</code>就可使用 MetingJS 播放器了</h4>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="comment">&lt;!-- 本blog音乐源代码 --&gt;</span></span></span><br><span class="line">&#123;% meting "2533852173" "netease" "playlist" %&#125;</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p><code>{% meting id, server, type%}</code>格式解释:</p>
@@ -74,17 +83,17 @@
 <blockquote>
 <p>想高级设置进阶的参见<a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md" target="_blank" rel="noopener">hexo-tag-aplayer中文文档</a>中 <strong>MeingJS 支持 (3.0 新功能)</strong> 栏目</p>
 </blockquote>
-<h3 id="1-2-侧边栏音乐"><a class="header-anchor" href="#1-2-侧边栏音乐">¶</a>1.2 侧边栏音乐</h3>
+<h3 id="1-3-侧边栏音乐（外链，受版权影响）"><a class="header-anchor" href="#1-3-侧边栏音乐（外链，受版权影响）">¶</a>1.3 侧边栏音乐（外链，受版权影响）</h3>
 <p>在\themes\next\layout_macro\sidebar.swig中加入一行网易云外链，外链链接直接网页访问你的歌单旁边就有。</p>
 <img src="/2020-03-14-Blog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87%EF%BC%88Hexo+Next%EF%BC%89/neteasy.png" class="">
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="comment">&lt;!--本主页侧边栏音乐的源代码--&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">frameborder</span>=<span class="string">"no"</span> <span class="attr">border</span>=<span class="string">"0"</span> <span class="attr">marginwidth</span>=<span class="string">"0"</span> <span class="attr">marginheight</span>=<span class="string">"0"</span> <span class="attr">width</span>=<span class="string">298</span> <span class="attr">height</span>=<span class="string">52</span> <span class="attr">src</span>=<span class="string">"//music.163.com/outchain/player?type=0&amp;id=4913366898&amp;auto=0&amp;height=32"</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>外链这种方法有个弊端，就是在歌单内播到版权音乐时会自动停止。本来侧边栏也想用上面blog的aplayer插件，但是失败告终，所以侧边栏只能用外链方法将就。</p>
 </blockquote>
-<h3 id="1-3-页脚音乐"><a class="header-anchor" href="#1-3-页脚音乐">¶</a>1.3 页脚音乐</h3>
+<h3 id="1-4-页脚音乐（外链，受版权影响）"><a class="header-anchor" href="#1-4-页脚音乐（外链，受版权影响）">¶</a>1.4 页脚音乐（外链，受版权影响）</h3>
 <p>代码和上面一样，依然使用外链，只不过目录改为<code>\themes\next\layout\_partials\footer.swig</code> ，代码敲在最后一行就可以。</p>
 <div class="note default no-icon">
-            <h2 id="2-视频"><a class="header-anchor" href="#2-视频">¶</a>2 视频</h2>
+            <h2 id="2-视频（外链）"><a class="header-anchor" href="#2-视频（外链）">¶</a>2 视频（外链）</h2>
           </div>
 <p>和侧边栏音乐一样，使用外链。</p>
 <iframe src="//player.bilibili.com/player.html?aid=5256249&cid=8541950&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
@@ -107,13 +116,13 @@
 <p><a href="https://hexo.io/zh-cn/docs/troubleshooting.html" target="_blank" rel="noopener">Hexo代码块中含有{}无法显示的解决办法</a> <strong>泄露（Escape）内容</strong> 部分</p>
 ]]></content>
       <tags>
-        <tag>技术</tag>
+        <tag>建站</tag>
       </tags>
   </entry>
   <entry>
     <title>搭建自己的个人博客(GitHub Pages+ Hexo)</title>
     <url>/2020-03-12-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(GitHub%20Pages+%20Hexo).html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><blockquote class="blockquote-center">两天的学习，查了众多大佬的好文，整理出来，算对自己学习的一个总结。win10亲测。</blockquote>
+    <content><![CDATA[<blockquote class="blockquote-center">两天的学习，查了众多大佬的好文，整理出来，算对自己学习的一个总结。win10亲测。</blockquote>
 <a id="more"></a>
 <p><strong>注意：文中代码区皆在Git Bash中输入</strong></p>
 <div class="note defalt no-icon">
@@ -200,7 +209,7 @@
 </ul>
 ]]></content>
       <tags>
-        <tag>技术</tag>
+        <tag>建站</tag>
       </tags>
   </entry>
 </search>

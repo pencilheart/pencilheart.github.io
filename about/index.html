@@ -277,7 +277,6 @@
         </li>
       </ul>
      
-      
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
       </div>
@@ -301,7 +300,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">1</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -310,16 +309,12 @@
 
 
       </div>
-      <!--music-->
-      <iframe  frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height=52 src="//music.163.com/outchain/player?type=0&id=4913366898&auto=0&height=32"></iframe>
-      <!--music-->
         <div class="back-to-top motion-element">
           <i class="fa fa-arrow-up"></i>
           <span>0%</span>
         </div>
 
     </div>
- 
   </aside>
   <div id="sidebar-dimmer"></div>
 
@@ -408,7 +403,7 @@ show_date_time();
 
   
   <script src="/lib/anime.min.js"></script>
-  <script src="/lib/pjax/pjax.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
 
 <script src="/js/utils.js"></script>
 
@@ -563,6 +558,24 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
 </script>
 
     </div>
+
+<!-- require APlayer -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+<!-- require MetingJS-->
+<script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script> 
+
+<div class="aplayer" 
+data-id="2533852173" 
+data-server="netease" 
+data-type="playlist" 
+data-fixed="true" 
+data-autoplay="true" 
+data-order="list" 
+data-volume="0.7" 
+data-theme="#FADFA3" 
+date-preload="auto" > 
+</div>
 
 </body>
 </html>
