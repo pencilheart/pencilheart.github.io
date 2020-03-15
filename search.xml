@@ -22,7 +22,7 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--源代码--&gt;</span><br><span class="line">&#123;% raw %&#125;&#123;% btn , click, github fa-fw fa-lg, NexT source code %&#125;&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--格式--&gt;</span><br><span class="line">&#123;% raw %&#125;</span><br><span class="line">&#123;% button url, text, icon [class], [title] %&#125;</span><br><span class="line">&lt;!-- Tag Alias --&gt;</span><br><span class="line">&#123;% btn url, text, icon [class], [title] %&#125;</span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <tags>
-        <tag>技术</tag>
+        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -54,7 +54,7 @@
           </div>
 <h3 id="1-1-blog内音乐"><a class="header-anchor" href="#1-1-blog内音乐">¶</a>1.1 blog内音乐</h3>
 
-    <div id="aplayer-JMGnYGGE" class="aplayer aplayer-tag-marker meting-tag-marker"
+    <div id="aplayer-jQvqdhcq" class="aplayer aplayer-tag-marker meting-tag-marker"
          data-id="2533852173" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
     ></div>  
 <h4 id="1-1-1-安装hexo-tag-aplayer插件"><a class="header-anchor" href="#1-1-1-安装hexo-tag-aplayer插件">¶</a>1.1.1 安装<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">hexo-tag-aplayer插件</a></h4>
