@@ -310,11 +310,12 @@ td {
   border-radius: 0;
   color: #fff;
   display: inline-block;
-  font-size: 0.875em;
+  font-size: 1.1em;
   line-height: 2;
   padding: 0 20px;
   text-decoration: none;
   transition-property: background-color;
+  border-radius: 22px;
   transition-delay: 0s;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
@@ -333,6 +334,8 @@ td {
 }
 .toggle {
   line-height: 0;
+  margin-bottom: 100px;
+  margin-right: 5px;
 }
 .toggle .toggle-line {
   background: #fff;
@@ -1014,12 +1017,12 @@ pre .javascript .function {
 }
 @media (min-width: 1200px) {
   .main-inner {
-    width: 800px;
+    width: 1500px;
   }
 }
 @media (min-width: 1600px) {
   .main-inner {
-    width: 900px;
+    width: 1500px;
   }
 }
 .header {
@@ -1031,12 +1034,12 @@ pre .javascript .function {
 }
 @media (min-width: 1200px) {
   .header-inner {
-    width: 800px;
+    width: 1500px;
   }
 }
 @media (min-width: 1600px) {
   .header-inner {
-    width: 900px;
+    width: 1500px;
   }
 }
 .site-brand-container {
@@ -1064,6 +1067,7 @@ pre .javascript .function {
   line-height: 1.375em;
   padding: 0 40px;
   position: relative;
+  border-radius: 22px;
 }
 .brand:hover {
   color: var(--brand-hover-color);
@@ -1073,12 +1077,12 @@ pre .javascript .function {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
-  line-height: 1.5;
+  line-height: 2;
   vertical-align: top;
 }
 .site-subtitle {
   color: #999;
-  font-size: 0.8125em;
+  font-size: 1em;
   margin: 10px 0;
 }
 .use-motion .brand {
@@ -1284,7 +1288,7 @@ pre .javascript .function {
   border: 2px solid #333;
   display: block;
   margin: 0 auto;
-  max-width: 96px;
+  max-width: 180px;
   padding: 2px;
 }
 .site-author-name {
@@ -1313,7 +1317,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #79bd0f;
+  background: #d76a0f;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1382,6 +1386,7 @@ pre .javascript .function {
   margin: 0;
   padding-bottom: 20px;
   padding-left: 0;
+  line-height: 60px;
 }
 .sidebar-nav li {
   border-bottom: 1px solid transparent;
@@ -1415,11 +1420,11 @@ pre .javascript .function {
   background: #222;
   bottom: 45px;
   cursor: pointer;
-  height: 14px;
+  height: 12px;
   left: 30px;
   padding: 5px;
   position: fixed;
-  width: 14px;
+  width: 30px;
   z-index: 1300;
 }
 @media (max-width: 991px) {
@@ -1450,13 +1455,13 @@ pre .javascript .function {
   transition-timing-function: ease-in-out;
 }
 .post-toc .nav-item {
-  line-height: 1.8;
+  line-height: 3.8;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 .post-toc .nav .nav-child {
-  display: none;
+  display: block;
 }
 .post-toc .nav .active > .nav-child {
   display: block;
@@ -1524,12 +1529,12 @@ pre .javascript .function {
 }
 @media (min-width: 1200px) {
   .footer-inner {
-    width: 800px;
+    width: 1500px;
   }
 }
 @media (min-width: 1600px) {
   .footer-inner {
-    width: 900px;
+    width: 1500px;
   }
 }
 .with-love {
@@ -1613,11 +1618,12 @@ pre .javascript .function {
   cursor: pointer;
   left: 30px;
   opacity: 1;
-  padding: 0 6px;
+  padding: 0 0px;
   position: fixed;
   transition-property: bottom;
   z-index: 1300;
-  width: 24px;
+  border-radius: 40px;
+  width: 250px;
 }
 .back-to-top span {
   display: none;
@@ -1674,6 +1680,7 @@ pre .javascript .function {
 .post-button {
   margin-top: 40px;
   text-align: center;
+  padding-bottom: 10px;
 }
 .use-motion .post-block,
 .use-motion .pagination,
@@ -1804,16 +1811,16 @@ pre .javascript .function {
 }
 .post-eof {
   background: #ccc;
-  height: 1px;
-  margin: 80px auto 60px;
+  height: 0;
+  margin: 0 auto 0;
   text-align: center;
-  width: 8%;
+  width: 0;
 }
 .post-block:last-child .post-eof {
   display: none;
 }
 .posts-expand {
-  padding-top: 40px;
+  padding-top: 0;
 }
 @media (max-width: 767px) {
   .posts-expand {
@@ -1950,7 +1957,7 @@ pre .javascript .function {
   color: #999;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
-  margin: 3px 0 60px 0;
+  margin: 0 0 0 0;
   text-align: center;
 }
 .posts-expand .post-meta .post-description {
@@ -1998,7 +2005,7 @@ pre .javascript .function {
   border-bottom: none;
   display: block;
   font-size: 0.875em;
-  line-height: 1.6;
+  line-height: 2.5;
   position: relative;
 }
 .post-nav-item a:active {
@@ -2381,22 +2388,22 @@ ul.breadcrumb li + li:last-child {
   }
 }
 .header-inner {
-  padding-top: 100px;
+  padding-top: 20px;
 }
 @media (max-width: 767px) {
   .header-inner {
-    padding-top: 50px;
+    padding-top: 10px;
   }
 }
 .main-inner {
-  padding-bottom: 60px;
+  padding-bottom: 0;
 }
 .content {
-  padding-top: 70px;
+  padding-top: 0;
 }
 @media (max-width: 767px) {
   .content {
-    padding-top: 35px;
+    padding-top: 0;
   }
 }
 embed {
@@ -2539,4 +2546,13 @@ embed {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.post-block {
+  background: var(--content-bg-color);
+  border-radius: 15px;
+  box-shadow: 0 12px 100px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
+  padding: 30px;
+}
+.post-block + .post-block {
+  margin-top: 30px;
 }

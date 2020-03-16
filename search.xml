@@ -111,7 +111,7 @@
 <p>不推荐<code>![](/images/image.jpg)</code>的方法，说实话，我用了没成功😂。</p>
 </blockquote>
 <div class="note info">
-            <h2 id="推这篇Blog时遇到的问题："><a class="header-anchor" href="#推这篇Blog时遇到的问题：">¶</a>推这篇Blog时遇到的问题：</h2>
+            <h2 id="推这篇Blog时遇到的问题"><a class="header-anchor" href="#推这篇Blog时遇到的问题">¶</a>推这篇Blog时遇到的问题</h2>
           </div>
 <p><a href="https://hexo.io/zh-cn/docs/troubleshooting.html" target="_blank" rel="noopener">Hexo代码块中含有{}无法显示的解决办法</a> <strong>泄露（Escape）内容</strong> 部分</p>
 ]]></content>
