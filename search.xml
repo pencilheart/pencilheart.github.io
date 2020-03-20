@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>windows软件集锦</title>
+    <url>/2020-03-20-windows%E8%BD%AF%E4%BB%B6%E9%9B%86%E9%94%A6.html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">常用软件备忘录</blockquote>
+ <a id="more"></a>
+<div class="note default no-icon">
+            <h2 id="效率神器"><a class="header-anchor" href="#效率神器">¶</a>效率神器</h2>
+          </div>
+<h3 id="全局鼠标手势WGestures"><a class="header-anchor" href="#全局鼠标手势WGestures">¶</a><a href="https://pc.qq.com/detail/8/detail_23908.html" target="_blank" rel="noopener">全局鼠标手势WGestures</a></h3>
+<h3 id="启动器listary"><a class="header-anchor" href="#启动器listary">¶</a><a href="https://pc.qq.com/detail/12/detail_23272.html" target="_blank" rel="noopener">启动器listary</a></h3>
+ <img src="/2020-03-20-windows%E8%BD%AF%E4%BB%B6%E9%9B%86%E9%94%A6/listary.png" class="" title="设置快捷键-腾讯软件搜索">
+ <div class="note default no-icon">
+            <h2 id="实用工具"><a class="header-anchor" href="#实用工具">¶</a>实用工具</h2>
+          </div>
+<h3 id="翻译CopyTranslator"><a class="header-anchor" href="#翻译CopyTranslator">¶</a><a href="https://copytranslator.github.io/" target="_blank" rel="noopener">翻译CopyTranslator</a></h3>
+ <img src="/2020-03-20-windows%E8%BD%AF%E4%BB%B6%E9%9B%86%E9%94%A6/copytranslator.png" class="">
+<h3 id="截图snipaste"><a class="header-anchor" href="#截图snipaste">¶</a><a href="https://pc.qq.com/detail/8/detail_22868.html" target="_blank" rel="noopener">截图snipaste</a></h3>
+<h3 id="PDF-XChange-Viewer"><a class="header-anchor" href="#PDF-XChange-Viewer">¶</a><a href="https://pc.qq.com/detail/7/detail_1227.html" target="_blank" rel="noopener">PDF-XChange Viewer</a></h3>
+<p>sticky notes（Windows自带）</p>
+<div class="note default no-icon">
+            <h2 id="电脑整理"><a class="header-anchor" href="#电脑整理">¶</a>电脑整理</h2>
+          </div>
+<h3 id="文件夹大小TreeSize-Free"><a class="header-anchor" href="#文件夹大小TreeSize-Free">¶</a><a href="https://pc.qq.com/detail/18/detail_3638.html" target="_blank" rel="noopener">文件夹大小TreeSize Free</a></h3>
+<h3 id="重复文件DuplicateCleaner（收费）"><a class="header-anchor" href="#重复文件DuplicateCleaner（收费）">¶</a><a href="https://pc.qq.com/detail/0/detail_24920.html" target="_blank" rel="noopener">重复文件DuplicateCleaner</a>（收费）</h3>
+<h3 id="任务栏变窄7-Taskbar-Tweaker"><a class="header-anchor" href="#任务栏变窄7-Taskbar-Tweaker">¶</a><a href="https://rammichael.com/7-taskbar-tweaker" target="_blank" rel="noopener">任务栏变窄7+ Taskbar Tweaker</a></h3>
+]]></content>
+      <tags>
+        <tag>EXE</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>next官文学习笔记</title>
     <url>/2020-03-15-next%E5%AE%98%E6%96%87%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</url>
     <content><![CDATA[<blockquote class="blockquote-center">学习官文，增强自信</blockquote>
@@ -81,7 +111,7 @@
 </ul>
 </blockquote>
 <blockquote>
-<p>想高级设置进阶的参见<a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md" target="_blank" rel="noopener">hexo-tag-aplayer中文文档</a>中 <strong>MeingJS 支持 (3.0 新功能)</strong> 栏目</p>
+<p>想高级设置进阶的参见<a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md" target="_blank" rel="noopener">hexo-tag-aplayer中文文档</a>中 <strong>MetingJS 支持 (3.0 新功能)</strong> 栏目</p>
 </blockquote>
 <h3 id="1-3-侧边栏音乐（外链，受版权影响）"><a class="header-anchor" href="#1-3-侧边栏音乐（外链，受版权影响）">¶</a>1.3 侧边栏音乐（外链，受版权影响）</h3>
 <p>在\themes\next\layout_macro\sidebar.swig中加入一行网易云外链，外链链接直接网页访问你的歌单旁边就有。</p>
