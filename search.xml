@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>windows软件集锦</title>
+    <url>/2020-03-20-windows%E8%BD%AF%E4%BB%B6%E9%9B%86%E9%94%A6.html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">常用软件备忘录</blockquote>
+ <a id="more"></a>
+<div class="note default no-icon">
+            <h2 id="效率神器"><a class="header-anchor" href="#效率神器">¶</a>效率神器</h2>
+          </div>
+<h3 id="全局鼠标手势WGestures"><a class="header-anchor" href="#全局鼠标手势WGestures">¶</a><a href="https://pc.qq.com/detail/8/detail_23908.html" target="_blank" rel="noopener">全局鼠标手势WGestures</a></h3>
+<h3 id="启动器listary"><a class="header-anchor" href="#启动器listary">¶</a><a href="https://pc.qq.com/detail/12/detail_23272.html" target="_blank" rel="noopener">启动器listary</a></h3>
+ <img src="/2020-03-20-windows%E8%BD%AF%E4%BB%B6%E9%9B%86%E9%94%A6/listary.png" class="" title="设置快捷键-腾讯软件搜索">
+ <div class="note default no-icon">
+            <h2 id="实用工具"><a class="header-anchor" href="#实用工具">¶</a>实用工具</h2>
+          </div>
+<h3 id="翻译CopyTranslator"><a class="header-anchor" href="#翻译CopyTranslator">¶</a><a href="https://copytranslator.github.io/" target="_blank" rel="noopener">翻译CopyTranslator</a></h3>
+ <img src="/2020-03-20-windows%E8%BD%AF%E4%BB%B6%E9%9B%86%E9%94%A6/copytranslator.png" class="">
+<h3 id="截图snipaste"><a class="header-anchor" href="#截图snipaste">¶</a><a href="https://pc.qq.com/detail/8/detail_22868.html" target="_blank" rel="noopener">截图snipaste</a></h3>
+<h3 id="PDF-XChange-Viewer"><a class="header-anchor" href="#PDF-XChange-Viewer">¶</a><a href="https://pc.qq.com/detail/7/detail_1227.html" target="_blank" rel="noopener">PDF-XChange Viewer</a></h3>
+<p>sticky notes（Windows自带）</p>
+<div class="note default no-icon">
+            <h2 id="电脑整理"><a class="header-anchor" href="#电脑整理">¶</a>电脑整理</h2>
+          </div>
+<h3 id="文件夹大小TreeSize-Free"><a class="header-anchor" href="#文件夹大小TreeSize-Free">¶</a><a href="https://pc.qq.com/detail/18/detail_3638.html" target="_blank" rel="noopener">文件夹大小TreeSize Free</a></h3>
+<h3 id="重复文件DuplicateCleaner（收费）"><a class="header-anchor" href="#重复文件DuplicateCleaner（收费）">¶</a><a href="https://pc.qq.com/detail/0/detail_24920.html" target="_blank" rel="noopener">重复文件DuplicateCleaner</a>（收费）</h3>
+<h3 id="任务栏变窄7-Taskbar-Tweaker"><a class="header-anchor" href="#任务栏变窄7-Taskbar-Tweaker">¶</a><a href="https://rammichael.com/7-taskbar-tweaker" target="_blank" rel="noopener">任务栏变窄7+ Taskbar Tweaker</a></h3>
+]]></content>
+      <tags>
+        <tag>EXE</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>next官文学习笔记</title>
+    <url>/2020-03-15-next%E5%AE%98%E6%96%87%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">学习官文，增强自信</blockquote>
+<a id="more"></a>
+<h2 id="note"><a class="header-anchor" href="#note">¶</a>note</h2>
+<div class="note success">
+            <p>Success Header</p>
+          </div>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--源代码--&gt;</span><br><span class="line">&#123;% raw %&#125;</span><br><span class="line">&#123;% note success %&#125;</span><br><span class="line">Success Header</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--格式--&gt;</span><br><span class="line">&#123;% raw %&#125;</span><br><span class="line">&#123;% note [class] [no-icon] %&#125;</span><br><span class="line">Any content (support inline tags too.io).</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">[class]   : default | primary | success | info | warning | danger.</span><br><span class="line">[no-icon] : Disable icon in note.</span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="tabs"><a class="header-anchor" href="#tabs">¶</a>tabs</h2>
+<div class="tabs" id="sixth-unique-name"><ul class="nav-tabs"><li class="tab active"><a href="#sixth-unique-name-1"><i class="fa fa-text-width"></i>Solution 1</a></li><li class="tab"><a href="#sixth-unique-name-2"><i class="fa fa-amazon"></i>Solution 2</a></li><li class="tab"><a href="#sixth-unique-name-3"><i class="fa fa-bold"></i>Solution 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="sixth-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="sixth-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="sixth-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--源代码--&gt;</span><br><span class="line">&#123;% raw %&#125;</span><br><span class="line">&#123;% tabs Sixth unique name %&#125;</span><br><span class="line">&lt;!-- tab Solution 1@text-width --&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab Solution 2 @amazon --&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab Solution 3@bold --&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--格式--&gt;</span><br><span class="line">&#123;% raw %&#125;</span><br><span class="line">&#123;% tabs Unique name, [index] %&#125;</span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="button"><a class="header-anchor" href="#button">¶</a>button</h2>
+<a class="btn" href="" title="NexT source code">
+            <i class="fa fa-github fa-fw fa-lg"></i>click
+          </a>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--源代码--&gt;</span><br><span class="line">&#123;% raw %&#125;&#123;% btn , click, github fa-fw fa-lg, NexT source code %&#125;&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!--格式--&gt;</span><br><span class="line">&#123;% raw %&#125;</span><br><span class="line">&#123;% button url, text, icon [class], [title] %&#125;</span><br><span class="line">&lt;!-- Tag Alias --&gt;</span><br><span class="line">&#123;% btn url, text, icon [class], [title] %&#125;</span><br><span class="line">&#123;% endraw %&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <tags>
+        <tag>建站</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>pjax实现歌曲放不停</title>
+    <url>/2020-03-14-pjax%E5%AE%9E%E7%8E%B0%E6%AD%8C%E6%9B%B2%E6%94%BE%E4%B8%8D%E5%81%9C.html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">谨以此文纪念X一样的我。</blockquote>
+<a id="more"></a>
+<p>现在已经实现了<a href="https://pencilheart.github.io/2020-03-14-Blog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87%EF%BC%88Hexo+Next%EF%BC%89.html?cache-bust=1584238666378#more">页面内音乐播放</a>，但是很容易就发现在切换页面时音乐就停了。。。</p>
+<p>所以，强迫症患者就找了一下午如何实现跳转页面时音乐不停。先是看很多博文听说了pjax，之后又听说next集成了pjax，就把站点配置文件_config.yml中的pjax打开了，然而，没用。</p>
+<p>直到现在！我遇到了<a href="https://cuiqingcai.com/7625.html" target="_blank" rel="noopener">崔庆才老师</a>！！！一语惊醒梦中人！！！</p>
+<img src="/2020-03-14-pjax%E5%AE%9E%E7%8E%B0%E6%AD%8C%E6%9B%B2%E6%94%BE%E4%B8%8D%E5%81%9C/pjax.png" class="" title="人类之光啊">
+<p>原来！！！我还没有安装pjax依赖库！瞬间哭了有没有！这回是真的蠢到自己了😂</p>
+<p>翻开<a href="https://theme-next.org/docs/getting-started/index.html" target="_blank" rel="noopener">官文</a>反思吧，官文写的可是清清楚楚，要下载之后才可使用。。。</p>
+<img src="/2020-03-14-pjax%E5%AE%9E%E7%8E%B0%E6%AD%8C%E6%9B%B2%E6%94%BE%E4%B8%8D%E5%81%9C/next_help.png" class="" title="Next官文">
+<p>我去学官文了，但愿自己以后长点脑子🎯</p>
+<div class="note info">
+            <p><strong>后续更新</strong></p>
+          </div>
+<p>后面通过翻阅<a href="https://theme-next.org/docs/third-party-services/external-libraries" target="_blank" rel="noopener">NEXT官文</a>，发现相较于下载插件，直接用CDN代理更快更方便。</p>
+<p>只需在主题配置文件<code>_config.yml</code>中，将<code>Third Party Plugins &amp; Services Settings</code>部分的<code>pjax: true</code>后，再将<code>vendors:</code>中的pjax部分设置为<code> pjax: https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js</code>即可启用pjax，更加简单快捷。</p>
+]]></content>
+      <tags>
+        <tag>建站</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blog中插入音乐、视频、图片（Hexo+Next）</title>
+    <url>/2020-03-14-Blog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87%EF%BC%88Hexo+Next%EF%BC%89.html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">本着“有官方教程绝不可劲bb”的原则，以下问题官文很好懂的会直接甩链接，接好。</blockquote>
+<a id="more"></a>
+<p>本文使用的环境是Hexo4.2和Next7.7.2</p>
+<div class="note default no-icon">
+            <h2 id="1-音乐"><a class="header-anchor" href="#1-音乐">¶</a>1 音乐</h2>
+          </div>
+<div class="note success">
+            <h3 id="1-1-全局音乐"><a class="header-anchor" href="#1-1-全局音乐">¶</a>1.1 全局音乐</h3>
+          </div>
+<p>这一节总结自<a href="https://hakurei.red/2019/11/25/%E4%B8%BAHexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%85%A8%E5%B1%80APlayer%E6%92%AD%E6%94%BE%E5%99%A8/#Show-me-the-CODE" target="_blank" rel="noopener">博麓吹笛分</a>社和<a href="https://cloud.tencent.com/developer/article/1157669" target="_blank" rel="noopener">惶心</a>两位大佬以及<a href="https://aplayer.js.org/#/zh-Hans/?id=%E5%8F%82%E6%95%B0" target="_blank" rel="noopener">Aplayer官文</a>和<a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener">Meting官文</a>，再结合刚学的pjax做个总结，实现全局音乐不停歇。</p>
+<p>想要实现全局音乐，首先需要两个插件<a href="https://aplayer.js.org/#/zh-Hans/?id=%E5%8F%82%E6%95%B0" target="_blank" rel="noopener">Aplayer</a>和<a href="https://github.com/metowolf/MetingJS" target="_blank" rel="noopener">Meting</a>。直接将下面代码copy到<code>\themes\next\layout\_layout.swig</code> 即可(直接找CDN，无需将插件安装到本地，省事还快，才发现的一大宝藏)：</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="comment">&lt;!-- require APlayer --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">"stylesheet"</span> <span class="attr">href</span>=<span class="string">"https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="comment">&lt;!-- require MetingJS--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span> </span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"aplayer"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-id</span>=<span class="string">"2533852173"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-server</span>=<span class="string">"netease"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-type</span>=<span class="string">"playlist"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-fixed</span>=<span class="string">"true"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-autoplay</span>=<span class="string">"true"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-order</span>=<span class="string">"list"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-volume</span>=<span class="string">"0.7"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">data-theme</span>=<span class="string">"#FADFA3"</span> </span></span><br><span class="line"><span class="tag"><span class="attr">date-preload</span>=<span class="string">"auto"</span> &gt;</span> </span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<img src="/2020-03-14-Blog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87%EF%BC%88Hexo+Next%EF%BC%89/metingjs.png" class="" title="选项列表，可自行设置">
+<p>那么要想实现全局页面切换歌不停，就得借助<a href="https://github.com/defunkt/jquery-pjax" target="_blank" rel="noopener">pjax插件</a>。移步<a href="https://pencilheart.github.io/2020-03-14-pjax%E5%AE%9E%E7%8E%B0%E6%AD%8C%E6%9B%B2%E6%94%BE%E4%B8%8D%E5%81%9C.html?cache-bust=1584281905370#more">可集成pjax实现跨页面歌不停</a>可瞬间解决全局歌停的问题。</p>
+<h3 id="1-2-blog内音乐"><a class="header-anchor" href="#1-2-blog内音乐">¶</a>1.2 blog内音乐</h3>
+<h4 id="1-2-1-安装hexo-tag-aplayer插件"><a class="header-anchor" href="#1-2-1-安装hexo-tag-aplayer插件">¶</a>1.2.1 安装<a href="https://github.com/MoePlayer/hexo-tag-aplayer" target="_blank" rel="noopener">hexo-tag-aplayer插件</a></h4>
+<p><code>npm install --save hexo-tag-aplayer</code></p>
+<h4 id="1-2-2-在站点配置文件-config-yml中敲入"><a class="header-anchor" href="#1-2-2-在站点配置文件-config-yml中敲入">¶</a>1.2.2 在站点配置文件_config.yml中敲入</h4>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">aplayer:</span><br><span class="line">  meting: true</span><br></pre></td></tr></table></figure>
+<h4 id="1-2-3-blog中敲入代码-￼8-就可使用-MetingJS-播放器了"><a class="header-anchor" href="#1-2-3-blog中敲入代码-￼8-就可使用-MetingJS-播放器了">¶</a>1.2.3 blog中敲入代码<code>{% meting id, server, type%}</code>就可使用 MetingJS 播放器了</h4>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="comment">&lt;!-- 本blog音乐源代码 --&gt;</span></span></span><br><span class="line">&#123;% meting "2533852173" "netease" "playlist" %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><code>{% meting id, server, type%}</code>格式解释:</p>
+<ul>
+<li>id就是歌曲或播放列表的id，打开音乐的网页地址栏的数字就是id</li>
+<li>serve就是在<code>netease, tencent, kugou, xiami, baidu</code>中选你的平台</li>
+<li>type就是在<code>song, playlist, album, search, artist</code>选对应的类型。</li>
+</ul>
+</blockquote>
+<blockquote>
+<p>想高级设置进阶的参见<a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md" target="_blank" rel="noopener">hexo-tag-aplayer中文文档</a>中 <strong>MetingJS 支持 (3.0 新功能)</strong> 栏目</p>
+</blockquote>
+<h3 id="1-3-侧边栏音乐（外链，受版权影响）"><a class="header-anchor" href="#1-3-侧边栏音乐（外链，受版权影响）">¶</a>1.3 侧边栏音乐（外链，受版权影响）</h3>
+<p>在\themes\next\layout_macro\sidebar.swig中加入一行网易云外链，外链链接直接网页访问你的歌单旁边就有。</p>
+<img src="/2020-03-14-Blog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87%EF%BC%88Hexo+Next%EF%BC%89/neteasy.png" class="">
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="comment">&lt;!--本主页侧边栏音乐的源代码--&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">frameborder</span>=<span class="string">"no"</span> <span class="attr">border</span>=<span class="string">"0"</span> <span class="attr">marginwidth</span>=<span class="string">"0"</span> <span class="attr">marginheight</span>=<span class="string">"0"</span> <span class="attr">width</span>=<span class="string">298</span> <span class="attr">height</span>=<span class="string">52</span> <span class="attr">src</span>=<span class="string">"//music.163.com/outchain/player?type=0&amp;id=4913366898&amp;auto=0&amp;height=32"</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>外链这种方法有个弊端，就是在歌单内播到版权音乐时会自动停止。本来侧边栏也想用上面blog的aplayer插件，但是失败告终，所以侧边栏只能用外链方法将就。</p>
+</blockquote>
+<h3 id="1-4-页脚音乐（外链，受版权影响）"><a class="header-anchor" href="#1-4-页脚音乐（外链，受版权影响）">¶</a>1.4 页脚音乐（外链，受版权影响）</h3>
+<p>代码和上面一样，依然使用外链，只不过目录改为<code>\themes\next\layout\_partials\footer.swig</code> ，代码敲在最后一行就可以。</p>
+<div class="note default no-icon">
+            <h2 id="2-视频（外链）"><a class="header-anchor" href="#2-视频（外链）">¶</a>2 视频（外链）</h2>
+          </div>
+<p>和侧边栏音乐一样，使用外链。</p>
+<iframe src="//player.bilibili.com/player.html?aid=5256249&cid=8541950&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="comment">&lt;!--本视频链接的源代码--&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">src</span>=<span class="string">"//player.bilibili.com/player.html?aid=5256249&amp;cid=8541950&amp;page=1"</span> <span class="attr">scrolling</span>=<span class="string">"no"</span> <span class="attr">border</span>=<span class="string">"0"</span> <span class="attr">frameborder</span>=<span class="string">"no"</span> <span class="attr">framespacing</span>=<span class="string">"0"</span> <span class="attr">allowfullscreen</span>=<span class="string">"true"</span>&gt;</span></span> <span class="xml"><span class="tag">&lt;/<span class="name">iframe</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+<p>b站嵌入代码获取方式如下图：</p>
+<img src="/2020-03-14-Blog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E3%80%81%E8%A7%86%E9%A2%91%E3%80%81%E5%9B%BE%E7%89%87%EF%BC%88Hexo+Next%EF%BC%89/viedo.png" class="">
+<div class="note default no-icon">
+            <h2 id="3-图片"><a class="header-anchor" href="#3-图片">¶</a>3 图片</h2>
+          </div>
+<p>借鉴<a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="noopener">Hexo官方插图教程</a>搞定！</p>
+<p>设置站点配置文件_config.yml中post_asset_folder: true，之后在Blog中敲入代码<code>{% asset_img 文件名.jpg 显示的小标题 %}</code>就ok了。</p>
+<p>附：</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="comment">&lt;!--上节b站图片的源代码--&gt;</span></span></span><br><span class="line">&#123;% asset_img viedo.png %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>不推荐<code>![](/images/image.jpg)</code>的方法，说实话，我用了没成功😂。</p>
+</blockquote>
+<div class="note info">
+            <h2 id="推这篇Blog时遇到的问题"><a class="header-anchor" href="#推这篇Blog时遇到的问题">¶</a>推这篇Blog时遇到的问题</h2>
+          </div>
+<p><a href="https://hexo.io/zh-cn/docs/troubleshooting.html" target="_blank" rel="noopener">Hexo代码块中含有{}无法显示的解决办法</a> <strong>泄露（Escape）内容</strong> 部分</p>
+]]></content>
+      <tags>
+        <tag>建站</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搭建自己的个人博客(GitHub Pages+ Hexo)</title>
+    <url>/2020-03-12-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(GitHub%20Pages+%20Hexo).html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">两天的学习，查了众多大佬的好文，整理出来，算对自己学习的一个总结。win10亲测。</blockquote>
+<a id="more"></a>
+<p><strong>注意：文中代码区皆在Git Bash中输入</strong></p>
+<div class="note defalt no-icon">
+            <h3 id="1-网页端"><a class="header-anchor" href="#1-网页端">¶</a>1 网页端</h3>
+          </div>
+<h4 id="1-1-注册GitHub账号"><a class="header-anchor" href="#1-1-注册GitHub账号">¶</a>1.1 注册GitHub账号</h4>
+<h4 id="1-2-创建Your-username-github-io的Public仓库"><a class="header-anchor" href="#1-2-创建Your-username-github-io的Public仓库">¶</a>1.2 创建Your_username.github.io的Public仓库</h4>
+<div class="note no-icon">
+            <h3 id="2-本地端"><a class="header-anchor" href="#2-本地端">¶</a>2 本地端</h3>
+          </div>
+<h4 id="2-1-环境配置"><a class="header-anchor" href="#2-1-环境配置">¶</a>2.1 <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">环境配置</a></h4>
+<ul>
+<li><a href="http://git-scm.com/download/" target="_blank" rel="noopener">安装Git</a></li>
+<li><a href="https://nodejs.org/ko/blog/release/v9.11.1/" target="_blank" rel="noopener">安装Node.js</a>，一路下一步。</li>
+</ul>
+<h4 id="2-2-本地安装Hexo"><a class="header-anchor" href="#2-2-本地安装Hexo">¶</a>2.2 本地安装Hexo</h4>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">cd d:/blog			# 或者右键文件夹根目录Git Bash </span><br><span class="line">npm i hexo-cli -g		# 安装Hexo</span><br><span class="line">Hexo -v				# 检查Hexo，显示版本号继续</span><br><span class="line">hexo init			# 初始化Hexo博客</span><br><span class="line">npm install			# 安装组件</span><br><span class="line">hexo g				# 生成静态网页</span><br><span class="line">hexo s				# 打开服务器，可以在http:<span class="comment">//localhost:4000/ 查看</span></span><br><span class="line">ctrl+c				# 关闭本地服务器</span><br></pre></td></tr></table></figure>
+<p>实现本地查看博客，jer动不？</p>
+<h4 id="2-3-本地绑定GitHub"><a class="header-anchor" href="#2-3-本地绑定GitHub">¶</a>2.3 本地绑定GitHub</h4>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">config</span> --global user.name <span class="string">"Your_username"</span></span><br><span class="line">git <span class="built_in">config</span> --global user.email <span class="string">"Your_email@qq.com"</span>   </span><br><span class="line">ssh-keygen -t rsa -C <span class="string">"Your_email@qq.com"</span>		# 安装本地SSH</span><br></pre></td></tr></table></figure>
+<p>Enter三连。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub		# 生成SSH密码</span><br></pre></td></tr></table></figure>
+<p>打开github网站，登录后点击头像-settings，左侧SSH and GPG keys，新建一个SSH，名字随便，填入上步的得到的SSH密码。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<p>检测到用户名即为成功绑定。</p>
+<h4 id="2-4-修改本地包上传目的地为GitHub"><a class="header-anchor" href="#2-4-修改本地包上传目的地为GitHub">¶</a>2.4 修改本地包上传目的地为GitHub</h4>
+<p>修改本地根目录文件_config.yml<br>
+修改最后一行的配置为：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:<span class="comment">//github.com/Your_username/Your_username.github.io.git</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>新版github博客只可显示master分支</p>
+<img src="/2020-03-12-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(GitHub%20Pages+%20Hexo)/settingsss.png" class="">
+</blockquote>
+<h4 id="2-5-调试"><a class="header-anchor" href="#2-5-调试">¶</a>2.5 调试</h4>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">hexo g				# 生成静态网页</span><br><span class="line">hexo s				# 打开服务器，可以在http:<span class="comment">//localhost:4000/ 查看</span></span><br><span class="line">ctrl+c				# 关闭本地服务器</span><br></pre></td></tr></table></figure>
+<div class="note success">
+            <h4 id="2-6-第一次上传"><a class="header-anchor" href="#2-6-第一次上传">¶</a>2.6 第一次上传</h4>
+          </div>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save	#上传插件，自动装入package.json文件中</span><br><span class="line">hexo clean				#清缓存</span><br><span class="line">hexo g					#生成静态网页</span><br><span class="line">hexo d					#上传到GitHub</span><br></pre></td></tr></table></figure>
+<p><strong>💥上传完毕后，浏览器访问https://github.com/Your_username/Your_username.github.io 即可查看你的博客了。</strong></p>
+<h4 id="2-7-写博文"><a class="header-anchor" href="#2-7-写博文">¶</a>2.7 写博文</h4>
+<p>以下两种方法都可创建新博文：<br>
+一种是直接在/source/_posts添加.md文件<br>
+一种是根目录下敲代码</p>
+ <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> post <span class="string">"article title“</span></span><br></pre></td></tr></table></figure>
+<p>但最终都需要用markdown语法编辑好后保存。</p>
+<blockquote>
+<p>Win下Markdown软件推荐<a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VScode</a>，是不是有点屈才？附<a href="https://www.cnblogs.com/huyong/p/4573041.html" target="_blank" rel="noopener">1分钟VScode入门</a>以及<a href="https://www.jianshu.com/p/191d1e21f7ed" target="_blank" rel="noopener">1分钟markdown语法学习</a>。</p>
+</blockquote>
+<h4 id="2-8-跨电脑修改博客"><a class="header-anchor" href="#2-8-跨电脑修改博客">¶</a>2.8 跨电脑修改博客</h4>
+<p>创建分支hexo用于保存源文件，并在Github网站上设置为默认Branch，但设置中Page应为master分支。<br>
+需要用Git把线上包下载到本地，链接最好采用SSH链接，使用如下命令：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">git clone git@github.com:Your-username/Your-username.github.io.git</span><br></pre></td></tr></table></figure>
+<p>之后在本地修改，再使用VScode上传源码后hexo编译即可。</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">npm i hexo-cli -g		# 安装Hexo</span><br><span class="line">Hexo -v				# 检查Hexo，显示版本号继续</span><br><span class="line">npm install			# 安装组件</span><br><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<div class="note info">
+            <h3 id="还有一点点"><a class="header-anchor" href="#还有一点点">¶</a>还有一点点</h3>
+          </div>
+<h4 id="Hexo技巧"><a class="header-anchor" href="#Hexo技巧">¶</a><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo技巧</a></h4>
+<ul>
+<li>
+<p><a href="https://hexo.io/zh-cn/docs/asset-folders.html" target="_blank" rel="noopener">添加图片</a></p>
+<p>使用自带的相对路径引用标签插件<code>{% asset_img example.jpg This is an example image %}</code></p>
+</li>
+<li>
+<p><a href="https://kinboyw.github.io/2018/10/29/Hexo-NexT-%E5%BC%80%E5%90%AF-emoji/" target="_blank" rel="noopener">添加支持emoji</a></p>
+<p>采用hexo-renderer-markdown-it插件代替hexo-renderer-markdown</p>
+</li>
+</ul>
+<h4 id="更换博客模板—推荐Next模板"><a class="header-anchor" href="#更换博客模板—推荐Next模板">¶</a>更换博客模板—推荐<a href="https://github.com/theme-next/hexo-theme-next" target="_blank" rel="noopener">Next</a>模板</h4>
+<ul>
+<li><a href="https://theme-next.org/docs/getting-started/" target="_blank" rel="noopener">Next官方主题配置</a> 、<a href="https://guanqr.com/tech/website/hexo-theme-next-customization/#top" target="_blank" rel="noopener">Next民间个性化</a></li>
+</ul>
+<div class="note info">
+            <h3 id="参考链接"><a class="header-anchor" href="#参考链接">¶</a>参考链接</h3>
+          </div>
+<ul>
+<li><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo官方文档</a></li>
+<li><a href="https://theme-next.org/docs/getting-started/" target="_blank" rel="noopener">Next官方文档</a></li>
+<li><a href="https://www.runoob.com/nodejs/nodejs-npm.html" target="_blank" rel="noopener">NPM介绍</a></li>
+<li><a href="http://npm.taobao.org/" target="_blank" rel="noopener">NPM镜像</a></li>
+<li><a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="noopener">手把手教你使用Hexo + Github Pages搭建个人独立博客—令狐葱@前端笔记</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/35668237" target="_blank" rel="noopener">超详细Hexo+Github博客搭建小白教程—韦阳</a></li>
+<li><a href="https://github.com/limedroid/HexoLearning" target="_blank" rel="noopener">Hexo 博客搭建指南—Limedroid</a></li>
+</ul>
+]]></content>
+      <tags>
+        <tag>建站</tag>
+      </tags>
+  </entry>
+</search>

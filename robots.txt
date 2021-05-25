@@ -1,0 +1,16 @@
+#hexo robots.txt
+User-agent: *
+
+Allow: /
+Allow: /archives/
+
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+
+Sitemap: http://blog.tangxiaozhu.com/search.xml
+Sitemap: http://blog.tangxiaozhu.com/sitemap.xml
+Sitemap: http://blog.tangxiaozhu.com/baidusitemap.xml
