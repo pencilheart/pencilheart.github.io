@@ -216,7 +216,7 @@
 需要用Git把线上包下载到本地，链接最好采用SSH链接，使用如下命令：</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">git clone git@github.com:Your-username/Your-username.github.io.git</span><br></pre></td></tr></table></figure>
 <p>之后在本地修改，再使用VScode上传源码后hexo编译即可。</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">npm i hexo-cli -g		# 安装Hexo</span><br><span class="line">Hexo -v				# 检查Hexo，显示版本号继续</span><br><span class="line">npm install			# 安装组件</span><br><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">npm i hexo-cli -g		# 安装Hexo</span><br><span class="line">Hexo -v				# 检查Hexo，显示版本号继续</span><br><span class="line">npm install			# 安装组件</span><br><span class="line">npm install hexo-deployer-git --save	#上传插件，自动装入package.json文件中</span><br><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 <div class="note info">
             <h3 id="还有一点点"><a class="header-anchor" href="#还有一点点">¶</a>还有一点点</h3>
           </div>
