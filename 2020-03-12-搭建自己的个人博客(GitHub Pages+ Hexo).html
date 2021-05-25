@@ -33,7 +33,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://pencilheart.github.io/2020-03-12-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(GitHub%20Pages+%20Hexo)/settingsss.png">
 <meta property="article:published_time" content="2020-03-12T15:55:55.000Z">
-<meta property="article:modified_time" content="2021-05-25T17:59:35.128Z">
+<meta property="article:modified_time" content="2021-05-25T18:02:35.486Z">
 <meta property="article:author" content="PencilHeart">
 <meta property="article:tag" content="建站">
 <meta name="twitter:card" content="summary">
@@ -287,7 +287,9 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ~/.ssh</span><br><span class="line">$ ls </span><br><span class="line">id_rsa known_hosts id_dsa.pub</span><br></pre></td></tr></table></figure>
 <p>若有一对以 <code>id_rsa</code> 或 <code>id_rsa.pub</code> 命名的文件，则已有密钥。		<br>
 若无，便建立密钥。（一路回车即可）</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -o </span><br><span class="line">``` </span><br><span class="line">打开github网站，登录后点击头像-settings，左侧SSH and GPG keys，新建一个SSH，名字随便，填入下面得到的SSH密码。</span><br><span class="line"></span><br><span class="line">```bash</span><br><span class="line">$ cat ~/.ssh/id_rsa.pub </span><br><span class="line">ssh-rsa AAAA……@mylaptop.local</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -o</span><br></pre></td></tr></table></figure>
+<p>打开github网站，登录后点击头像-settings，左侧SSH and GPG keys，新建一个SSH，名字随便，填入下面得到的SSH密码。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cat ~/.ssh/id_rsa.pub </span><br><span class="line">ssh-rsa AAAA……@mylaptop.local</span><br></pre></td></tr></table></figure>
 <ul>
 <li>添加或更改密码</li>
 </ul>

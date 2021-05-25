@@ -177,7 +177,9 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ~/.ssh</span><br><span class="line">$ ls </span><br><span class="line">id_rsa known_hosts id_dsa.pub</span><br></pre></td></tr></table></figure>
 <p>若有一对以 <code>id_rsa</code> 或 <code>id_rsa.pub</code> 命名的文件，则已有密钥。		<br>
 若无，便建立密钥。（一路回车即可）</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ ssh-keygen -o </span><br><span class="line">``` </span><br><span class="line">打开github网站，登录后点击头像-settings，左侧SSH and GPG keys，新建一个SSH，名字随便，填入下面得到的SSH密码。</span><br><span class="line"></span><br><span class="line">```bash</span><br><span class="line">$ cat ~/.ssh/id_rsa.pub </span><br><span class="line">ssh-rsa AAAA……@mylaptop.local</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ ssh-keygen -o</span><br></pre></td></tr></table></figure>
+<p>打开github网站，登录后点击头像-settings，左侧SSH and GPG keys，新建一个SSH，名字随便，填入下面得到的SSH密码。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ cat ~/.ssh/id_rsa.pub </span><br><span class="line">ssh-rsa AAAA……@mylaptop.local</span><br></pre></td></tr></table></figure>
 <ul>
 <li>添加或更改密码</li>
 </ul>
