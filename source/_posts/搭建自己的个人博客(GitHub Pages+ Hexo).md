@@ -23,13 +23,14 @@ tags: 建站
 
 #### 2.1 [环境配置](https://hexo.io/zh-cn/docs/)
 * [安装Git](http://git-scm.com/download/)
-* [安装Node.js](https://nodejs.org/ko/blog/release/v9.11.1/)，一路下一步。
+* [安装Node.js](https://nodejs.org/ko/download/)，一路下一步。
 
 #### 2.2 本地安装Hexo
 
 ```c
 cd d:/blog			# 或者右键文件夹根目录Git Bash 
 npm i hexo-cli -g		# 安装Hexo
+echo 'PATH="$PATH:./node_modules/.bin"' >> ~/.profile		# 添加到环境变量
 Hexo -v				# 检查Hexo，显示版本号继续
 hexo init			# 初始化Hexo博客
 npm install			# 安装组件
@@ -94,13 +95,21 @@ hexo d					#上传到GitHub
 
 >Win下Markdown软件推荐[VScode](https://code.visualstudio.com/)，是不是有点屈才？附[1分钟VScode入门](https://www.cnblogs.com/huyong/p/4573041.html)以及[1分钟markdown语法学习](https://www.jianshu.com/p/191d1e21f7ed)。
 
-#### 2.7 后续上传
-从第二次上传开始就无须安装插件了，只需三行。
+#### 2.7 跨电脑修改博客
+创建分支hexo用于保存源文件，并在Github网站上设置为默认Branch，但设置中Page应为master分支。
+
+需要用Git把线上包下载到本地，链接最好采用SSH链接，使用如下命令：
+
+```c
+git clone git@github.com:Your-username/Your-username.github.io.git
+```
+之后在本地修改，再使用VScode上传源码后hexo编译即可。
  ```c
 hexo clean
 hexo g
 hexo d
  ```
+
 {% note info %}
 ###  还有一点点
 {% endnote %}
@@ -117,13 +126,7 @@ hexo d
 
 * [Next官方主题配置](https://theme-next.org/docs/getting-started/) 、[Next民间个性化](https://guanqr.com/tech/website/hexo-theme-next-customization/#top)
 
-#### 跨电脑修改博客
-需要用Git把线上包下载到本地，链接最好采用SSH链接，使用如下命令：
 
-```c
-git clone git@github.com:Your-username/Your-username.github.io.git
-```
-之后在本地修改，再上传即可
 
 {% note info %}
 ### 参考链接
