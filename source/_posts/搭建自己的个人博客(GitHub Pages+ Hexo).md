@@ -48,11 +48,13 @@ id_rsa known_hosts id_dsa.pub
 ```
 若有一对以 `id_rsa` 或 `id_rsa.pub` 命名的文件，则已有密钥。		
 若无，便建立密钥。（一路回车即可）
+
 ```bash
-$ ssh-keygen -o 
-``` 
+$ ssh-keygen -o  
+```
 
 打开github网站，登录后点击头像-settings，左侧SSH and GPG keys，新建一个SSH，名字随便，填入下面得到的SSH密码。
+
 ```bash
 $ cat ~/.ssh/id_rsa.pub 
 ssh-rsa AAAA……@mylaptop.local  
@@ -60,7 +62,7 @@ ssh-rsa AAAA……@mylaptop.local
 
 - 添加或更改密码
  ```bash
-$ ssh-keygen -p -f ~/.ssh/id_rsa
+$ ssh-keygen -p -f ~/.ssh/id_rsa  
  ```
 ##### 2.3.2 第二种方法
 ```c
