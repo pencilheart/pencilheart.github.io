@@ -23,7 +23,7 @@ tags: 建站
 
 #### 2.1 [环境配置](https://hexo.io/zh-cn/docs/)
 * [安装Git](http://git-scm.com/download/)
-* [安装Node.js](https://nodejs.org/ko/blog/release/v9.11.1/)，一路下一步。
+* [安装Node.js](https://nodejs.org/download/release/v10.24.0/)，一路下一步。
 
 #### 2.2 本地安装Hexo
 
@@ -39,7 +39,30 @@ ctrl+c				# 关闭本地服务器
 ```
 实现本地查看博客，jer动不？
 #### 2.3 本地绑定GitHub
+##### 2.3.1 第一种方法
+找本机是否有ssh密钥
+```bash
+$ cd ~/.ssh
+$ ls 
+id_rsa known_hosts id_dsa.pub
+```
+若有一对以 `id_rsa` 或 `id_rsa.pub` 命名的文件，则已有密钥。		
+若无，便建立密钥。（一路回车即可）
+```bash
+$ ssh-keygen -o 
+``` 
 
+打开github网站，登录后点击头像-settings，左侧SSH and GPG keys，新建一个SSH，名字随便，填入下面得到的SSH密码。
+```bash
+$ cat ~/.ssh/id_rsa.pub 
+ssh-rsa AAAA……@mylaptop.local  
+```
+
+- 添加或更改密码
+ ```bash
+$ ssh-keygen -p -f ~/.ssh/id_rsa
+ ```
+##### 2.3.2 第二种方法
 ```c
 git config --global user.name "Your_username"
 git config --global user.email "Your_email@qq.com"   

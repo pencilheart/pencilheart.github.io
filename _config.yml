@@ -103,7 +103,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/pencilheart/pencilheart.github.io.git
+  repository: https://github.com/pencilheart/pencilheart.github.io
   branch: master
 
 ## markdown 渲染引擎配置，默认是hexo-renderer-marked，这个插件渲染速度更快，且有新特性
