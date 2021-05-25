@@ -23,7 +23,7 @@ tags: 建站
 
 #### 2.1 [环境配置](https://hexo.io/zh-cn/docs/)
 * [安装Git](http://git-scm.com/download/)
-* [安装Node.js](https://nodejs.org/ko/download/)，一路下一步。
+* [安装Node.js](https://nodejs.org/ko/blog/release/v9.11.1/)，一路下一步。([安装最新版本会出错](https://zhuanlan.zhihu.com/p/136552969))
 
 #### 2.2 本地安装Hexo
 
@@ -97,9 +97,7 @@ hexo d					#上传到GitHub
 
 #### 2.7 跨电脑修改博客
 创建分支hexo用于保存源文件，并在Github网站上设置为默认Branch，但设置中Page应为master分支。
-
 需要用Git把线上包下载到本地，链接最好采用SSH链接，使用如下命令：
-
 ```c
 git clone git@github.com:Your-username/Your-username.github.io.git
 ```
@@ -109,7 +107,6 @@ hexo clean
 hexo g
 hexo d
  ```
-
 {% note info %}
 ###  还有一点点
 {% endnote %}
