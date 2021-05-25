@@ -192,7 +192,7 @@
 <h4 id="2-4-修改本地包上传目的地为GitHub"><a class="header-anchor" href="#2-4-修改本地包上传目的地为GitHub">¶</a>2.4 修改本地包上传目的地为GitHub</h4>
 <p>修改本地根目录文件_config.yml<br>
 修改最后一行的配置为：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:<span class="comment">//github.com/Your_username/Your_username.github.io</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:yourname/yourname.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>新版github博客只可显示master分支</p>
 <img src="/2020-03-12-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(GitHub%20Pages+%20Hexo)/settingsss.png" class="">
