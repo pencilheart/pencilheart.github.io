@@ -130,6 +130,7 @@ git clone git@github.com:Your-username/Your-username.github.io.git
 npm i hexo-cli -g		# 安装Hexo
 Hexo -v				# 检查Hexo，显示版本号继续
 npm install			# 安装组件
+npm install hexo-deployer-git --save	#上传插件，自动装入package.json文件中
 hexo clean
 hexo g
 hexo d
