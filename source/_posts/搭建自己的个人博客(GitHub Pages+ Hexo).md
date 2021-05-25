@@ -85,7 +85,7 @@ ssh -T git@github.com
 ```c
 deploy:
   type: git
-  repository: https://github.com/Your_username/Your_username.github.io.git
+  repository: git@github.com:yourname/yourname.github.io.git
   branch: master		
 ```
 
@@ -113,15 +113,7 @@ hexo d					#上传到GitHub
 **:boom:上传完毕后，浏览器访问https://github.com/Your_username/Your_username.github.io 即可查看你的博客了。**
 
 #### 2.7 写博文
-以下两种方法都可创建新博文：
-一种是直接在/source/_posts添加.md文件
-一种是根目录下敲代码
-
- ```c
-  hexo new post "article title“   
- ```
-
-但最终都需要用markdown语法编辑好后保存。
+直接在/source/_posts添加.md文件,需要用markdown语法编辑好后保存。
 
 >Win下Markdown软件推荐[VScode](https://code.visualstudio.com/)，是不是有点屈才？附[1分钟VScode入门](https://www.cnblogs.com/huyong/p/4573041.html)以及[1分钟markdown语法学习](https://www.jianshu.com/p/191d1e21f7ed)。
 
