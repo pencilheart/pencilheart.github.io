@@ -3,7 +3,7 @@
   <entry>
     <title>windows软件集锦</title>
     <url>/2020-03-20-windows%E8%BD%AF%E4%BB%B6%E9%9B%86%E9%94%A6.html</url>
-    <content><![CDATA[<blockquote class="blockquote-center">常用软件的备忘录</blockquote>
+    <content><![CDATA[<blockquote class="blockquote-center">常用软件备忘录</blockquote>
  <a id="more"></a>
 <div class="note default no-icon">
             <h2 id="效率神器"><a class="header-anchor" href="#效率神器">¶</a>效率神器</h2>
@@ -166,12 +166,23 @@
 <h4 id="2-1-环境配置"><a class="header-anchor" href="#2-1-环境配置">¶</a>2.1 <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">环境配置</a></h4>
 <ul>
 <li><a href="http://git-scm.com/download/" target="_blank" rel="noopener">安装Git</a></li>
-<li><a href="https://nodejs.org/ko/blog/release/v9.11.1/" target="_blank" rel="noopener">安装Node.js</a>，一路下一步。</li>
+<li><a href="https://nodejs.org/download/release/v10.24.0/" target="_blank" rel="noopener">安装Node.js</a>，一路下一步。</li>
 </ul>
 <h4 id="2-2-本地安装Hexo"><a class="header-anchor" href="#2-2-本地安装Hexo">¶</a>2.2 本地安装Hexo</h4>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">cd d:/blog			# 或者右键文件夹根目录Git Bash </span><br><span class="line">npm i hexo-cli -g		# 安装Hexo</span><br><span class="line">Hexo -v				# 检查Hexo，显示版本号继续</span><br><span class="line">hexo init			# 初始化Hexo博客</span><br><span class="line">npm install			# 安装组件</span><br><span class="line">hexo g				# 生成静态网页</span><br><span class="line">hexo s				# 打开服务器，可以在http:<span class="comment">//localhost:4000/ 查看</span></span><br><span class="line">ctrl+c				# 关闭本地服务器</span><br></pre></td></tr></table></figure>
 <p>实现本地查看博客，jer动不？</p>
 <h4 id="2-3-本地绑定GitHub"><a class="header-anchor" href="#2-3-本地绑定GitHub">¶</a>2.3 本地绑定GitHub</h4>
+<h5 id="2-3-1-第一种方法"><a class="header-anchor" href="#2-3-1-第一种方法">¶</a>2.3.1 第一种方法</h5>
+<p>找本机是否有ssh密钥</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ~/.ssh</span><br><span class="line">$ ls </span><br><span class="line">id_rsa known_hosts id_dsa.pub</span><br></pre></td></tr></table></figure>
+<p>若有一对以 <code>id_rsa</code> 或 <code>id_rsa.pub</code> 命名的文件，则已有密钥。		<br>
+若无，便建立密钥。（一路回车即可）</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ ssh-keygen -o </span><br><span class="line">``` </span><br><span class="line"></span><br><span class="line">打开github网站，登录后点击头像-settings，左侧SSH and GPG keys，新建一个SSH，名字随便，填入下面得到的SSH密码。</span><br><span class="line">```bash</span><br><span class="line">$ cat ~/.ssh/id_rsa.pub </span><br><span class="line">ssh-rsa AAAA……@mylaptop.local</span><br></pre></td></tr></table></figure>
+<ul>
+<li>添加或更改密码</li>
+</ul>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ ssh-keygen -p -f ~/.ssh/id_rsa</span><br></pre></td></tr></table></figure>
+<h5 id="2-3-2-第二种方法"><a class="header-anchor" href="#2-3-2-第二种方法">¶</a>2.3.2 第二种方法</h5>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">config</span> --global user.name <span class="string">"Your_username"</span></span><br><span class="line">git <span class="built_in">config</span> --global user.email <span class="string">"Your_email@qq.com"</span>   </span><br><span class="line">ssh-keygen -t rsa -C <span class="string">"Your_email@qq.com"</span>		# 安装本地SSH</span><br></pre></td></tr></table></figure>
 <p>Enter三连。</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub		# 生成SSH密码</span><br></pre></td></tr></table></figure>
