@@ -23,14 +23,13 @@ tags: 建站
 
 #### 2.1 [环境配置](https://hexo.io/zh-cn/docs/)
 * [安装Git](http://git-scm.com/download/)
-* [安装Node.js](https://nodejs.org/ko/blog/release/v9.11.1/)，一路下一步。([安装最新版本会出错](https://zhuanlan.zhihu.com/p/136552969))
+* [安装Node.js](https://nodejs.org/ko/blog/release/v9.11.1/)，一路下一步。
 
 #### 2.2 本地安装Hexo
 
 ```c
 cd d:/blog			# 或者右键文件夹根目录Git Bash 
 npm i hexo-cli -g		# 安装Hexo
-echo 'PATH="$PATH:./node_modules/.bin"' >> ~/.profile		# 添加到环境变量
 Hexo -v				# 检查Hexo，显示版本号继续
 hexo init			# 初始化Hexo博客
 npm install			# 安装组件
@@ -70,8 +69,16 @@ deploy:
 >新版github博客只可显示master分支
 >{% asset_img settingsss.png %}
 
+
+#### 2.5 调试
+```c
+hexo g				# 生成静态网页
+hexo s				# 打开服务器，可以在http://localhost:4000/ 查看
+ctrl+c				# 关闭本地服务器
+```
+
 {% note success %}
-#### 2.5 第一次上传
+#### 2.6 第一次上传
 {% endnote %}
 
 ```c
@@ -82,7 +89,7 @@ hexo d					#上传到GitHub
 ```
 **:boom:上传完毕后，浏览器访问https://github.com/Your_username/Your_username.github.io 即可查看你的博客了。**
 
-#### 2.6 写博文
+#### 2.7 写博文
 以下两种方法都可创建新博文：
 一种是直接在/source/_posts添加.md文件
 一种是根目录下敲代码
@@ -95,18 +102,21 @@ hexo d					#上传到GitHub
 
 >Win下Markdown软件推荐[VScode](https://code.visualstudio.com/)，是不是有点屈才？附[1分钟VScode入门](https://www.cnblogs.com/huyong/p/4573041.html)以及[1分钟markdown语法学习](https://www.jianshu.com/p/191d1e21f7ed)。
 
-#### 2.7 跨电脑修改博客
+#### 2.8 跨电脑修改博客
 创建分支hexo用于保存源文件，并在Github网站上设置为默认Branch，但设置中Page应为master分支。
 需要用Git把线上包下载到本地，链接最好采用SSH链接，使用如下命令：
 ```c
 git clone git@github.com:Your-username/Your-username.github.io.git
 ```
 之后在本地修改，再使用VScode上传源码后hexo编译即可。
- ```c
+```c
+npm i hexo-cli -g		# 安装Hexo
+Hexo -v				# 检查Hexo，显示版本号继续
+npm install			# 安装组件
 hexo clean
 hexo g
 hexo d
- ```
+```
 {% note info %}
 ###  还有一点点
 {% endnote %}
@@ -122,8 +132,6 @@ hexo d
 #### 更换博客模板—推荐[Next](https://github.com/theme-next/hexo-theme-next)模板
 
 * [Next官方主题配置](https://theme-next.org/docs/getting-started/) 、[Next民间个性化](https://guanqr.com/tech/website/hexo-theme-next-customization/#top)
-
-
 
 {% note info %}
 ### 参考链接
