@@ -33,7 +33,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://pencilheart.github.io/2020-03-12-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(GitHub%20Pages+%20Hexo)/settingsss.png">
 <meta property="article:published_time" content="2020-03-12T15:55:55.000Z">
-<meta property="article:modified_time" content="2021-05-25T16:59:16.307Z">
+<meta property="article:modified_time" content="2021-05-25T17:10:32.572Z">
 <meta property="article:author" content="PencilHeart">
 <meta property="article:tag" content="建站">
 <meta name="twitter:card" content="summary">
@@ -302,7 +302,7 @@
 <h4 id="2-4-修改本地包上传目的地为GitHub"><a class="header-anchor" href="#2-4-修改本地包上传目的地为GitHub">¶</a>2.4 修改本地包上传目的地为GitHub</h4>
 <p>修改本地根目录文件_config.yml<br>
 修改最后一行的配置为：</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:<span class="comment">//github.com/Your_username/Your_username.github.io.git</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:<span class="comment">//github.com/Your_username/Your_username.github.io</span></span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>新版github博客只可显示master分支</p>
 <img src="/2020-03-12-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2(GitHub%20Pages+%20Hexo)/settingsss.png" class="">
@@ -315,11 +315,7 @@
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save	#上传插件，自动装入package.json文件中</span><br><span class="line">hexo clean				#清缓存</span><br><span class="line">hexo g					#生成静态网页</span><br><span class="line">hexo d					#上传到GitHub</span><br></pre></td></tr></table></figure>
 <p><strong>💥上传完毕后，浏览器访问https://github.com/Your_username/Your_username.github.io 即可查看你的博客了。</strong></p>
 <h4 id="2-7-写博文"><a class="header-anchor" href="#2-7-写博文">¶</a>2.7 写博文</h4>
-<p>以下两种方法都可创建新博文：<br>
-一种是直接在/source/_posts添加.md文件<br>
-一种是根目录下敲代码</p>
- <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> post <span class="string">"article title“</span></span><br></pre></td></tr></table></figure>
-<p>但最终都需要用markdown语法编辑好后保存。</p>
+<p>直接在/source/_posts添加.md文件,需要用markdown语法编辑好后保存。</p>
 <blockquote>
 <p>Win下Markdown软件推荐<a href="https://code.visualstudio.com/" target="_blank" rel="noopener">VScode</a>，是不是有点屈才？附<a href="https://www.cnblogs.com/huyong/p/4573041.html" target="_blank" rel="noopener">1分钟VScode入门</a>以及<a href="https://www.jianshu.com/p/191d1e21f7ed" target="_blank" rel="noopener">1分钟markdown语法学习</a>。</p>
 </blockquote>
